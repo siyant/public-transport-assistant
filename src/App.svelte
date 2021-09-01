@@ -1,7 +1,7 @@
 <script>
   import { onMount } from "svelte";
 
-  const trainStations = ["Mayflower", "Mountbatten"];
+  const trainStations = ["Mayflower", "Ang Mo Kio"];
   let trainTimings = {};
 
   const busStops = [54229, 54221];
