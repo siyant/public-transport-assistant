@@ -21,7 +21,9 @@
       const resJson = await res.json();
       const results = resJson.results;
       const resultsCleaned = [];
+
       for (let platform of results) {
+        // remove (Interchange) from destination station name
         const interchange = " (Interchange)";
         if (platform.next_train_destination.endsWith(interchange))
           platform.next_train_destination =
@@ -29,20 +31,30 @@
         if (platform.subseq_train_destination.endsWith(interchange))
           platform.subseq_train_destination =
             platform.subseq_train_destination.split(interchange)[0];
-        if (
-          platform.subseq_train_destination == null ||
+
+        // handle various cases
+        if (platform.next_train_destination === "N/A") {
+          // no more trains at the platform -> skip
+          continue;
+        } else if (
+          // next train and subsequent train have the same destination
+          // -> add to resultsCleaned as 1 entry
           platform.next_train_destination === platform.subseq_train_destination
         ) {
           resultsCleaned.push(platform);
         } else {
+          // next train and subsequent train have different destinations
+          // -> add to resultsCleaned as 2 entries
           const { subseq_train_destination, subseq_train_arr, ...nextTrain } =
             platform;
           resultsCleaned.push(nextTrain);
-          const subseqTrain = Object.assign({}, nextTrain, {
-            next_train_destination: subseq_train_destination,
-            next_train_arr: subseq_train_arr,
-          });
-          resultsCleaned.push(subseqTrain);
+          if (subseq_train_destination !== "") {
+            const subseqTrain = Object.assign({}, nextTrain, {
+              next_train_destination: subseq_train_destination,
+              next_train_arr: subseq_train_arr,
+            });
+            resultsCleaned.push(subseqTrain);
+          }
         }
       }
       trainTimings[station] = resultsCleaned;
@@ -60,6 +72,14 @@
   function handleRefresh() {
     fetchTrainArrivalTimes();
     fetchBusArrivalTimes();
+  }
+
+  function renderBusTiming(durationMs) {
+    if (durationMs == null) return "";
+    const timingMin = Math.floor(durationMs / 60000);
+    if (timingMin < 0) return `<span class="fade">Arr</span>`;
+    if (timingMin === 0) return "Arr";
+    return timingMin;
   }
 </script>
 
@@ -81,8 +101,12 @@
           {#each trainTimings[station] ?? [] as t}
             <tr>
               <td>{t.next_train_destination}</td>
-              <td class="center">{t.next_train_arr ?? ""}</td>
-              <td class="center">{t.subseq_train_arr ?? ""}</td>
+              <td class="center {t.next_train_arr === 'N/A' ? 'fade' : ''}">
+                {t.next_train_arr ?? ""}
+              </td>
+              <td class="center {t.subseq_train_arr === 'N/A' ? 'fade' : ''}">
+                {t.subseq_train_arr ?? ""}
+              </td>
             </tr>
           {/each}
         </tbody>
@@ -107,19 +131,13 @@
             <tr>
               <td>{bus.no}</td>
               <td class="center">
-                {bus.next.duration_ms != null
-                  ? Math.floor(bus.next.duration_ms / 60000)
-                  : ""}
+                {@html renderBusTiming(bus.next.duration_ms)}
               </td>
               <td class="center">
-                {bus.next2.duration_ms != null
-                  ? Math.floor(bus.next2.duration_ms / 60000)
-                  : ""}
+                {@html renderBusTiming(bus.next2.duration_ms)}
               </td>
               <td class="center">
-                {bus.next3.duration_ms != null
-                  ? Math.floor(bus.next3.duration_ms / 60000)
-                  : ""}
+                {@html renderBusTiming(bus.next3.duration_ms)}
               </td>
             </tr>
           {/each}
@@ -142,6 +160,10 @@
 
   :global(button:hover) {
     cursor: pointer;
+  }
+
+  :global(.fade) {
+    color: #aaa;
   }
 
   h2 {
