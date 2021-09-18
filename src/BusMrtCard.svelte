@@ -1,5 +1,6 @@
 <script>
   import { onMount } from "svelte";
+  import MrtCodePill from "./MrtCodePill.svelte";
   import * as api from "./data/api.js";
 
   export let type; // "bus", "mrt"
@@ -11,7 +12,7 @@
 
   onMount(fetchData);
 
-  $: if (refresh != null) {
+  $: if (refresh > 0) {
     fetchData();
   }
 
@@ -32,7 +33,9 @@
 </script>
 
 <div class="card">
-  <h3>{name}</h3>
+  <h3>
+    <MrtCodePill station={name} /><span class="vertical-center">{name}</span>
+  </h3>
 
   <table>
     <thead>
