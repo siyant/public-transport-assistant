@@ -1,5 +1,5 @@
 <script>
-  import getMrtStations from "./data/mrtStations";
+  import { getMrtStations } from "./data/mrtStations";
 
   export let handleChange;
 

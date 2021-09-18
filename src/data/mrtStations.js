@@ -1,4 +1,4 @@
-import mrtStations from "./data/mrtStations";
+import mrtStations from "./mrtStations.json";
 
 export function getMrtStations() {
   return mrtStations;
