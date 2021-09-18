@@ -12,11 +12,11 @@
   onMount(fetchData);
 
   $: if (refresh != null) {
-    console.log("refreshing");
     fetchData();
   }
 
   async function fetchData() {
+    timings = null;
     if (type === "mrt") timings = await api.fetchMrtArrivalTimes(name);
     else if (type === "bus")
       timings = await api.fetchBusArrivalTimes(busStopId);

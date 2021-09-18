@@ -1,0 +1,898 @@
+[
+  {
+    "stationCodes": ["NS10"],
+    "name": "Admiralty",
+    "nameChinese": "海军部",
+    "nameTamil": "அட்மிரல்ட்டி",
+    "abbreviation": "ADM"
+  },
+  {
+    "stationCodes": ["EW9"],
+    "name": "Aljunied",
+    "nameChinese": "阿裕尼",
+    "nameTamil": "அல்ஜூனிட்",
+    "abbreviation": "ALJ"
+  },
+  {
+    "stationCodes": ["NS16"],
+    "name": "Ang Mo Kio",
+    "nameChinese": "宏茂桥",
+    "nameTamil": "அங் மோ கியோ",
+    "abbreviation": "AMK"
+  },
+  {
+    "stationCodes": ["CC12"],
+    "name": "Bartley",
+    "nameChinese": "巴特礼",
+    "nameTamil": "பார்ட்லி",
+    "abbreviation": "BLY"
+  },
+  {
+    "stationCodes": ["CE1", "DT16"],
+    "name": "Bayfront",
+    "nameChinese": "海湾舫",
+    "nameTamil": "பேஃபிரண்ட்",
+    "abbreviation": "BFT"
+  },
+  {
+    "stationCodes": ["DT5"],
+    "name": "Beauty World",
+    "nameChinese": "美世界",
+    "nameTamil": "பியூட்டி வோர்ல்ட்",
+    "abbreviation": "BTW"
+  },
+  {
+    "stationCodes": ["EW5"],
+    "name": "Bedok",
+    "nameChinese": "勿洛",
+    "nameTamil": "பிடோக்",
+    "abbreviation": "BDK"
+  },
+  {
+    "stationCodes": ["DT29"],
+    "name": "Bedok North",
+    "nameChinese": "勿洛北",
+    "nameTamil": "பிடோக் நார்த்",
+    "abbreviation": "BDN"
+  },
+  {
+    "stationCodes": ["DT30"],
+    "name": "Bedok Reservoir",
+    "nameChinese": "勿洛蓄水池",
+    "nameTamil": "பிடோக் ரெசவோர்",
+    "abbreviation": "BDR"
+  },
+  {
+    "stationCodes": ["DT21"],
+    "name": "Bencoolen",
+    "nameChinese": "明古连",
+    "nameTamil": "பென்கூலன்",
+    "abbreviation": "BCL"
+  },
+  {
+    "stationCodes": ["DT23"],
+    "name": "Bendemeer",
+    "nameChinese": "明地迷亚",
+    "nameTamil": "பெண்டிமியர்",
+    "abbreviation": "BDM"
+  },
+  {
+    "stationCodes": ["NS17", "CC15"],
+    "name": "Bishan",
+    "nameChinese": "碧山",
+    "nameTamil": "பீஷான்",
+    "abbreviation": "BSH"
+  },
+  {
+    "stationCodes": ["NE9"],
+    "name": "Boon Keng",
+    "nameChinese": "文庆",
+    "nameTamil": "பூன் கெங்",
+    "abbreviation": "BNK"
+  },
+  {
+    "stationCodes": ["EW27"],
+    "name": "Boon Lay",
+    "nameChinese": "文礼",
+    "nameTamil": "பூன் லே",
+    "abbreviation": "BNL"
+  },
+  {
+    "stationCodes": ["CC19", "DT9"],
+    "name": "Botanic Gardens",
+    "nameChinese": "植物园",
+    "nameTamil": "பூ மலை",
+    "abbreviation": "BTN"
+  },
+  {
+    "stationCodes": ["NS18"],
+    "name": "Braddell",
+    "nameChinese": "布莱德",
+    "nameTamil": "பிரேடல்",
+    "abbreviation": "BDL"
+  },
+  {
+    "stationCodes": ["CC2"],
+    "name": "Bras Basah",
+    "nameChinese": "百胜",
+    "nameTamil": "பிராஸ் பாசா",
+    "abbreviation": "BBS"
+  },
+  {
+    "stationCodes": ["TE7"],
+    "name": "Bright Hill",
+    "nameChinese": "光明山",
+    "nameTamil": "பிரைட் ஹில்",
+    "abbreviation": "BRH"
+  },
+  {
+    "stationCodes": ["NE15"],
+    "name": "Buangkok",
+    "nameChinese": "万国",
+    "nameTamil": "புவாங்கோக்",
+    "abbreviation": "BGK"
+  },
+  {
+    "stationCodes": ["EW12", "DT14"],
+    "name": "Bugis",
+    "nameChinese": "武吉士",
+    "nameTamil": "பூகிஸ்",
+    "abbreviation": "BGS"
+  },
+  {
+    "stationCodes": ["NS2"],
+    "name": "Bukit Batok",
+    "nameChinese": "武吉巴督",
+    "nameTamil": "புக்கிட் பாத்தோக்",
+    "abbreviation": "BBT"
+  },
+  {
+    "stationCodes": ["NS3"],
+    "name": "Bukit Gombak",
+    "nameChinese": "武吉甘柏",
+    "nameTamil": "புக்கிட் கோம்பாக்",
+    "abbreviation": "BGB"
+  },
+  {
+    "stationCodes": ["DT1", "BP6"],
+    "name": "Bukit Panjang",
+    "nameChinese": "武吉班让",
+    "nameTamil": "புக்கிட் பாஞ்சாங்",
+    "abbreviation": "BKP"
+  },
+  {
+    "stationCodes": ["EW21", "CC22"],
+    "name": "Buona Vista",
+    "nameChinese": "波那维斯达",
+    "nameTamil": "புவன விஸ்தா",
+    "abbreviation": "BNV"
+  },
+  {
+    "stationCodes": ["CC17", "TE9"],
+    "name": "Caldecott",
+    "nameChinese": "加利谷",
+    "nameTamil": "கால்டிகாட்",
+    "abbreviation": "CDT"
+  },
+  {
+    "stationCodes": ["NS12"],
+    "name": "Canberra",
+    "nameChinese": "坎贝拉",
+    "nameTamil": "கான்பரா",
+    "abbreviation": "CBR"
+  },
+  {
+    "stationCodes": ["DT2"],
+    "name": "Cashew",
+    "nameChinese": "凯秀",
+    "nameTamil": "கேஷ்யூ",
+    "abbreviation": "CSW"
+  },
+  {
+    "stationCodes": ["CG2"],
+    "name": "Changi Airport",
+    "nameChinese": "樟宜机场",
+    "nameTamil": "சாங்கி விமானநிலையம்",
+    "abbreviation": "CGA"
+  },
+  {
+    "stationCodes": ["NE4", "DT19"],
+    "name": "Chinatown",
+    "nameChinese": "牛车水",
+    "nameTamil": "சைனாடவுன்",
+    "abbreviation": "CNT"
+  },
+  {
+    "stationCodes": ["EW25"],
+    "name": "Chinese Garden",
+    "nameChinese": "裕华园",
+    "nameTamil": "சீனத் தோட்டம்",
+    "abbreviation": "CNG"
+  },
+  {
+    "stationCodes": ["NS4", "BP1"],
+    "name": "Choa Chu Kang",
+    "nameChinese": "蔡厝港",
+    "nameTamil": "சுவா சூ காங்",
+    "abbreviation": "CCK"
+  },
+  {
+    "stationCodes": ["NS25", "EW13"],
+    "name": "City Hall",
+    "nameChinese": "政府大厦",
+    "nameTamil": "நகர மண்டபம்",
+    "abbreviation": "CTH"
+  },
+  {
+    "stationCodes": ["NE5"],
+    "name": "Clarke Quay",
+    "nameChinese": "克拉码头",
+    "nameTamil": "கிளார்க் கீ",
+    "abbreviation": "CQY"
+  },
+  {
+    "stationCodes": ["EW23"],
+    "name": "Clementi",
+    "nameChinese": "金文泰",
+    "nameTamil": "கிளிமெண்டி",
+    "abbreviation": "CLE"
+  },
+  {
+    "stationCodes": ["EW20"],
+    "name": "Commonwealth",
+    "nameChinese": "联邦",
+    "nameTamil": "காமன்வெல்த்",
+    "abbreviation": "COM"
+  },
+  {
+    "stationCodes": ["CC8"],
+    "name": "Dakota",
+    "nameChinese": "达科达",
+    "nameTamil": "டகோட்டா",
+    "abbreviation": "DKT"
+  },
+  {
+    "stationCodes": ["NS24", "NE6", "CC1"],
+    "name": "Dhoby Ghaut",
+    "nameChinese": "多美歌",
+    "nameTamil": "டோபி காட்",
+    "abbreviation": "DBG"
+  },
+  {
+    "stationCodes": ["EW22"],
+    "name": "Dover",
+    "nameChinese": "杜弗",
+    "nameTamil": "டோவெர்",
+    "abbreviation": "DVR"
+  },
+  {
+    "stationCodes": ["DT17"],
+    "name": "Downtown",
+    "nameChinese": "市中心",
+    "nameTamil": "டௌன்டவுன்",
+    "abbreviation": "DTN"
+  },
+  {
+    "stationCodes": ["CC3"],
+    "name": "Esplanade",
+    "nameChinese": "滨海中心",
+    "nameTamil": "எஸ்பிளனேட்",
+    "abbreviation": "EPN"
+  },
+  {
+    "stationCodes": ["EW7"],
+    "name": "Eunos",
+    "nameChinese": "友诺士",
+    "nameTamil": "யூனுஸ்",
+    "abbreviation": "EUN"
+  },
+  {
+    "stationCodes": ["CG1", "DT35"],
+    "name": "Expo",
+    "nameChinese": "博览",
+    "nameTamil": "எக்ஸ்போ",
+    "abbreviation": "XPO"
+  },
+  {
+    "stationCodes": ["NE8"],
+    "name": "Farrer Park",
+    "nameChinese": "花拉公园",
+    "nameTamil": "ஃபேரர் பார்க்",
+    "abbreviation": "FRP"
+  },
+  {
+    "stationCodes": ["CC20"],
+    "name": "Farrer Road",
+    "nameChinese": "花拉路",
+    "nameTamil": "ஃபேரர் சாலை",
+    "abbreviation": "FRR"
+  },
+  {
+    "stationCodes": ["DT20"],
+    "name": "Fort Canning",
+    "nameChinese": "福康宁",
+    "nameTamil": "ஃபோர்ட் கெனிங்",
+    "abbreviation": "FCN"
+  },
+  {
+    "stationCodes": ["DT24"],
+    "name": "Geylang Bahru",
+    "nameChinese": "芽笼峇鲁",
+    "nameTamil": "கேலாங் பாரு",
+    "abbreviation": "GLB"
+  },
+  {
+    "stationCodes": ["EW30"],
+    "name": "Gul Circle",
+    "nameChinese": "卡尔圈",
+    "nameTamil": "கல் சர்க்கல்",
+    "abbreviation": "GCL"
+  },
+  {
+    "stationCodes": ["NE1", "CC29"],
+    "name": "HarbourFront",
+    "nameChinese": "港湾",
+    "nameTamil": "துறைமுகம்",
+    "abbreviation": "HBF"
+  },
+  {
+    "stationCodes": ["CC25"],
+    "name": "Haw Par Villa",
+    "nameChinese": "虎豹别墅",
+    "nameTamil": "ஹா பர் வில்லா",
+    "abbreviation": "HPV"
+  },
+  {
+    "stationCodes": ["DT3"],
+    "name": "Hillview",
+    "nameChinese": "山景",
+    "nameTamil": "ஹில்வியூ",
+    "abbreviation": "HVW"
+  },
+  {
+    "stationCodes": ["CC21"],
+    "name": "Holland Village",
+    "nameChinese": "荷兰村",
+    "nameTamil": "ஹாலந்து வில்லேஜ்",
+    "abbreviation": "HLV"
+  },
+  {
+    "stationCodes": ["NE14"],
+    "name": "Hougang",
+    "nameChinese": "后港",
+    "nameTamil": "ஹவ்காங்",
+    "abbreviation": "HGN"
+  },
+  {
+    "stationCodes": ["DT22"],
+    "name": "Jalan Besar",
+    "nameChinese": "惹兰勿刹",
+    "nameTamil": "ஜாலான் புசார்",
+    "abbreviation": "JLB"
+  },
+  {
+    "stationCodes": ["EW29"],
+    "name": "Joo Koon",
+    "nameChinese": "裕群",
+    "nameTamil": "ஜூ கூன்",
+    "abbreviation": "JKN"
+  },
+  {
+    "stationCodes": ["NS1", "EW24"],
+    "name": "Jurong East",
+    "nameChinese": "裕廊东",
+    "nameTamil": "ஜூரோங் கிழக்கு",
+    "abbreviation": "JUR"
+  },
+  {
+    "stationCodes": ["DT28"],
+    "name": "Kaki Bukit",
+    "nameChinese": "加基武吉",
+    "nameTamil": "காக்கி புக்கிட்",
+    "abbreviation": "KKB"
+  },
+  {
+    "stationCodes": ["EW10"],
+    "name": "Kallang",
+    "nameChinese": "加冷",
+    "nameTamil": "காலாங்",
+    "abbreviation": "KAL"
+  },
+  {
+    "stationCodes": ["EW6"],
+    "name": "Kembangan",
+    "nameChinese": "景万岸",
+    "nameTamil": "கெம்பாங்கான்",
+    "abbreviation": "KEM"
+  },
+  {
+    "stationCodes": ["CC24"],
+    "name": "Kent Ridge",
+    "nameChinese": "肯特岗",
+    "nameTamil": "கெண்ட் ரிஜ்",
+    "abbreviation": "KRG"
+  },
+  {
+    "stationCodes": ["NS14"],
+    "name": "Khatib",
+    "nameChinese": "卡迪",
+    "nameTamil": "காதிப்",
+    "abbreviation": "KTB"
+  },
+  {
+    "stationCodes": ["DT6"],
+    "name": "King Albert Park",
+    "nameChinese": "阿尔柏王园",
+    "nameTamil": "கிங் ஆல்பர்ட் பார்க்",
+    "abbreviation": "KAP"
+  },
+  {
+    "stationCodes": ["NE13"],
+    "name": "Kovan",
+    "nameChinese": "高文",
+    "nameTamil": "கோவன்",
+    "abbreviation": "KVN"
+  },
+  {
+    "stationCodes": ["NS7"],
+    "name": "Kranji",
+    "nameChinese": "克兰芝",
+    "nameTamil": "கிராஞ்சி",
+    "abbreviation": "KRJ"
+  },
+  {
+    "stationCodes": ["CC27"],
+    "name": "Labrador Park",
+    "nameChinese": "拉柏多公园",
+    "nameTamil": "லாப்ரடார் பூங்கா",
+    "abbreviation": "LBD"
+  },
+  {
+    "stationCodes": ["EW26"],
+    "name": "Lakeside",
+    "nameChinese": "湖畔",
+    "nameTamil": "ஏரிக்கரை",
+    "abbreviation": "LKS"
+  },
+  {
+    "stationCodes": ["EW11"],
+    "name": "Lavender",
+    "nameChinese": "劳明达",
+    "nameTamil": "லவண்டர்",
+    "abbreviation": "LVR"
+  },
+  {
+    "stationCodes": ["TE5"],
+    "name": "Lentor",
+    "nameChinese": "伦多",
+    "nameTamil": "லென்ட்டோர்",
+    "abbreviation": "LTR"
+  },
+  {
+    "stationCodes": ["NE7", "DT12"],
+    "name": "Little India",
+    "nameChinese": "小印度",
+    "nameTamil": "லிட்டில் இந்தியா",
+    "abbreviation": "LTI"
+  },
+  {
+    "stationCodes": ["CC14"],
+    "name": "Lorong Chuan",
+    "nameChinese": "罗弄泉",
+    "nameTamil": "லோரோங் சுவான்",
+    "abbreviation": "LRC"
+  },
+  {
+    "stationCodes": ["CC10", "DT26"],
+    "name": "MacPherson",
+    "nameChinese": "麦波申",
+    "nameTamil": "மெக்பர்சன்",
+    "abbreviation": "MPS"
+  },
+  {
+    "stationCodes": ["NS27", "CE2"],
+    "name": "Marina Bay",
+    "nameChinese": "滨海湾",
+    "nameTamil": "மரீனா பே",
+    "abbreviation": "MRB"
+  },
+  {
+    "stationCodes": ["NS28"],
+    "name": "Marina South Pier",
+    "nameChinese": "滨海南码头",
+    "nameTamil": "மரினா சவுத் படகுத்துறை",
+    "abbreviation": "MSP"
+  },
+  {
+    "stationCodes": ["NS8"],
+    "name": "Marsiling",
+    "nameChinese": "马西岭",
+    "nameTamil": "மார்சிலிங்",
+    "abbreviation": "MSL"
+  },
+  {
+    "stationCodes": ["CC16"],
+    "name": "Marymount",
+    "nameChinese": "玛丽蒙",
+    "nameTamil": "மேரிமவுண்ட்",
+    "abbreviation": "MRM"
+  },
+  {
+    "stationCodes": ["DT25"],
+    "name": "Mattar",
+    "nameChinese": "玛达",
+    "nameTamil": "மாத்தார்",
+    "abbreviation": "MTR"
+  },
+  {
+    "stationCodes": ["TE6"],
+    "name": "Mayflower",
+    "nameChinese": "美华",
+    "nameTamil": "மேஃபிளவர்",
+    "abbreviation": "MFL"
+  },
+  {
+    "stationCodes": ["CC7"],
+    "name": "Mountbatten",
+    "nameChinese": "蒙巴登",
+    "nameTamil": "மவுண்ட்பேட்டன்",
+    "abbreviation": "MBT"
+  },
+  {
+    "stationCodes": ["NS21", "DT11"],
+    "name": "Newton",
+    "nameChinese": "纽顿",
+    "nameTamil": "நியூட்டன்",
+    "abbreviation": "NEW"
+  },
+  {
+    "stationCodes": ["CC5"],
+    "name": "Nicoll Highway",
+    "nameChinese": "尼诰大道",
+    "nameTamil": "நிக்கல் நெடுஞ்சாலை",
+    "abbreviation": "NCH"
+  },
+  {
+    "stationCodes": ["NS20"],
+    "name": "Novena",
+    "nameChinese": "诺维娜",
+    "nameTamil": "நொவீனா",
+    "abbreviation": "NOV"
+  },
+  {
+    "stationCodes": ["CC23"],
+    "name": "one-north",
+    "nameChinese": "纬壹",
+    "nameTamil": "ஒன்-நார்த்",
+    "abbreviation": "ONH"
+  },
+  {
+    "stationCodes": ["NS22"],
+    "name": "Orchard",
+    "nameChinese": "乌节",
+    "nameTamil": "ஆர்ச்சர்ட்",
+    "abbreviation": "ORC"
+  },
+  {
+    "stationCodes": ["EW16", "NE3"],
+    "name": "Outram Park",
+    "nameChinese": "欧南园",
+    "nameTamil": "ஊட்ரம் பார்க்",
+    "abbreviation": "OTP"
+  },
+  {
+    "stationCodes": ["CC26"],
+    "name": "Pasir Panjang",
+    "nameChinese": "巴西班让",
+    "nameTamil": "பாசிர் பாஞ்சாங்",
+    "abbreviation": "PPJ"
+  },
+  {
+    "stationCodes": ["EW1"],
+    "name": "Pasir Ris",
+    "nameChinese": "巴西立",
+    "nameTamil": "பாசிர் ரிஸ்",
+    "abbreviation": "PSR"
+  },
+  {
+    "stationCodes": ["EW8", "CC9"],
+    "name": "Paya Lebar",
+    "nameChinese": "巴耶利峇",
+    "nameTamil": "பாய லேபார்",
+    "abbreviation": "PYL"
+  },
+  {
+    "stationCodes": ["EW28"],
+    "name": "Pioneer",
+    "nameChinese": "先驱",
+    "nameTamil": "பயனியர்",
+    "abbreviation": "PNR"
+  },
+  {
+    "stationCodes": ["NE10"],
+    "name": "Potong Pasir",
+    "nameChinese": "波东巴西",
+    "nameTamil": "போத்தோங் பாசிர்",
+    "abbreviation": "PTP"
+  },
+  {
+    "stationCodes": ["CC4", "DT15"],
+    "name": "Promenade",
+    "nameChinese": "宝门廊",
+    "nameTamil": "புரொமனாட்",
+    "abbreviation": "PMN"
+  },
+  {
+    "stationCodes": ["NE17", "PTC"],
+    "name": "Punggol",
+    "nameChinese": "榜鹅",
+    "nameTamil": "பொங்கோல்",
+    "abbreviation": "PGL"
+  },
+  {
+    "stationCodes": ["EW19"],
+    "name": "Queenstown",
+    "nameChinese": "女皇镇",
+    "nameTamil": "குவீன்ஸ்டவுன்",
+    "abbreviation": "QUE"
+  },
+  {
+    "stationCodes": ["NS26", "EW14"],
+    "name": "Raffles Place",
+    "nameChinese": "莱佛士坊",
+    "nameTamil": "ராஃபிள்ஸ் பிளேஸ்",
+    "abbreviation": "RFP"
+  },
+  {
+    "stationCodes": ["EW18"],
+    "name": "Redhill",
+    "nameChinese": "红山",
+    "nameTamil": "ரெட்ஹில்",
+    "abbreviation": "RDH"
+  },
+  {
+    "stationCodes": ["PE4"],
+    "name": "Riviera",
+    "nameChinese": "里维拉",
+    "nameTamil": "ரிவியாரா",
+    "abbreviation": "TBA"
+  },
+  {
+    "stationCodes": ["DT13"],
+    "name": "Rochor",
+    "nameChinese": "梧槽",
+    "nameTamil": "ரோச்சோர்",
+    "abbreviation": "RCR"
+  },
+  {
+    "stationCodes": ["NS11"],
+    "name": "Sembawang",
+    "nameChinese": "三巴旺",
+    "nameTamil": "செம்பாவாங்",
+    "abbreviation": "SBW"
+  },
+  {
+    "stationCodes": ["NE16", "STC"],
+    "name": "Sengkang",
+    "nameChinese": "盛港",
+    "nameTamil": "செங்காங்",
+    "abbreviation": "SKG"
+  },
+  {
+    "stationCodes": ["NE12", "CC13"],
+    "name": "Serangoon",
+    "nameChinese": "实龙岗",
+    "nameTamil": "சிராங்கூன்",
+    "abbreviation": "SER"
+  },
+  {
+    "stationCodes": ["EW3"],
+    "name": "Simei",
+    "nameChinese": "四美",
+    "nameTamil": "ஸீமெய்",
+    "abbreviation": "SIM"
+  },
+  {
+    "stationCodes": ["DT7"],
+    "name": "Sixth Avenue",
+    "nameChinese": "第六道",
+    "nameTamil": "சிக்ஸ்த் அவென்யூ",
+    "abbreviation": "SAV"
+  },
+  {
+    "stationCodes": ["NS23"],
+    "name": "Somerset",
+    "nameChinese": "索美塞",
+    "nameTamil": "சாமர்செட்",
+    "abbreviation": "SOM"
+  },
+  {
+    "stationCodes": ["TE4"],
+    "name": "Springleaf",
+    "nameChinese": "春叶",
+    "nameTamil": "ஸ்பிரிங்லீஃவ்",
+    "abbreviation": "SPL"
+  },
+  {
+    "stationCodes": ["CC6"],
+    "name": "Stadium",
+    "nameChinese": "体育场",
+    "nameTamil": "ஸ்டேடியம்",
+    "abbreviation": "SDM"
+  },
+  {
+    "stationCodes": ["DT10"],
+    "name": "Stevens",
+    "nameChinese": "史蒂芬",
+    "nameTamil": "ஸ்டீவன்ஸ்",
+    "abbreviation": "STV"
+  },
+  {
+    "stationCodes": ["CC11"],
+    "name": "Tai Seng",
+    "nameChinese": "大成",
+    "nameTamil": "தை செங்",
+    "abbreviation": "TSG"
+  },
+  {
+    "stationCodes": ["EW2", "DT32"],
+    "name": "Tampines",
+    "nameChinese": "淡滨尼",
+    "nameTamil": "தெம்பினிஸ்",
+    "abbreviation": "TAM"
+  },
+  {
+    "stationCodes": ["DT33"],
+    "name": "Tampines East",
+    "nameChinese": "淡滨尼东",
+    "nameTamil": "தெம்பினிஸ் ஈஸ்ட்",
+    "abbreviation": "TPE"
+  },
+  {
+    "stationCodes": ["DT31"],
+    "name": "Tampines West",
+    "nameChinese": "淡滨尼西",
+    "nameTamil": "தெம்பினிஸ் வெஸ்ட்",
+    "abbreviation": "TPW"
+  },
+  {
+    "stationCodes": ["DT8"],
+    "name": "Tan Kah Kee",
+    "nameChinese": "陈嘉庚",
+    "nameTamil": "டான் கா கீ",
+    "abbreviation": "TKK"
+  },
+  {
+    "stationCodes": ["EW4", "CG"],
+    "name": "Tanah Merah",
+    "nameChinese": "丹那美拉",
+    "nameTamil": "தானா மேரா",
+    "abbreviation": "TNM"
+  },
+  {
+    "stationCodes": ["EW15"],
+    "name": "Tanjong Pagar",
+    "nameChinese": "丹戎巴葛",
+    "nameTamil": "தஞ்சோங் பகார்",
+    "abbreviation": "TPG"
+  },
+  {
+    "stationCodes": ["DT18"],
+    "name": "Telok Ayer",
+    "nameChinese": "直落亚逸",
+    "nameTamil": "தெலுக் ஆயர்",
+    "abbreviation": "TLA"
+  },
+  {
+    "stationCodes": ["CC28"],
+    "name": "Telok Blangah",
+    "nameChinese": "直落布兰雅",
+    "nameTamil": "தெலுக் பிளாங்கா",
+    "abbreviation": "TLB"
+  },
+  {
+    "stationCodes": ["EW17"],
+    "name": "Tiong Bahru",
+    "nameChinese": "中峇鲁",
+    "nameTamil": "தியோங் பாரு",
+    "abbreviation": "TIB"
+  },
+  {
+    "stationCodes": ["NS19"],
+    "name": "Toa Payoh",
+    "nameChinese": "大巴窑",
+    "nameTamil": "தோ பாயோ",
+    "abbreviation": "TAP"
+  },
+  {
+    "stationCodes": ["EW31"],
+    "name": "Tuas Crescent",
+    "nameChinese": "大士弯",
+    "nameTamil": "துவாஸ் கிரசண்ட்",
+    "abbreviation": "TCR"
+  },
+  {
+    "stationCodes": ["EW33"],
+    "name": "Tuas Link",
+    "nameChinese": "大士连路",
+    "nameTamil": "துவாஸ் லிங்க்",
+    "abbreviation": "TLK"
+  },
+  {
+    "stationCodes": ["EW32"],
+    "name": "Tuas West Road",
+    "nameChinese": "大士西路",
+    "nameTamil": "துவாஸ் வெஸ்ட் ரோடு",
+    "abbreviation": "TWR"
+  },
+  {
+    "stationCodes": ["DT27"],
+    "name": "Ubi",
+    "nameChinese": "乌美",
+    "nameTamil": "உபி",
+    "abbreviation": "UBI"
+  },
+  {
+    "stationCodes": ["DT34"],
+    "name": "Upper Changi",
+    "nameChinese": "樟宜上段",
+    "nameTamil": "அப்பர் சாங்கி",
+    "abbreviation": "UPC"
+  },
+  {
+    "stationCodes": ["TE8"],
+    "name": "Upper Thomson",
+    "nameChinese": "汤申路上段[19]",
+    "nameTamil": "அப்பர் தாம்சன்",
+    "abbreviation": "UTS"
+  },
+  {
+    "stationCodes": ["NS9", "TE2"],
+    "name": "Woodlands",
+    "nameChinese": "兀兰",
+    "nameTamil": "ஊட்லண்ட்ஸ்",
+    "abbreviation": "WDL"
+  },
+  {
+    "stationCodes": ["TE1", "RTS"],
+    "name": "Woodlands North",
+    "nameChinese": "兀兰北",
+    "nameTamil": "உட்லண்ட்ஸ் நார்த்",
+    "abbreviation": "WDN"
+  },
+  {
+    "stationCodes": ["TE3"],
+    "name": "Woodlands South",
+    "nameChinese": "兀兰南",
+    "nameTamil": "உட்லண்ட்ஸ் சவுத்",
+    "abbreviation": "WDS"
+  },
+  {
+    "stationCodes": ["NE11"],
+    "name": "Woodleigh",
+    "nameChinese": "兀里",
+    "nameTamil": "உட்லீ",
+    "abbreviation": "WLH"
+  },
+  {
+    "stationCodes": ["NS5"],
+    "name": "Yew Tee",
+    "nameChinese": "油池",
+    "nameTamil": "இயூ டீ",
+    "abbreviation": "YWT"
+  },
+  {
+    "stationCodes": ["NS15"],
+    "name": "Yio Chu Kang",
+    "nameChinese": "杨厝港",
+    "nameTamil": "இயோ சூ காங்",
+    "abbreviation": "YCK"
+  },
+  {
+    "stationCodes": ["NS13"],
+    "name": "Yishun",
+    "nameChinese": "义顺",
+    "nameTamil": "யீஷூன்",
+    "abbreviation": "YIS"
+  }
+]
