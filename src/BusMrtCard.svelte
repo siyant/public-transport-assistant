@@ -1,7 +1,26 @@
 <script>
+  import { onMount } from "svelte";
+  import * as api from "./data/api.js";
+
   export let type; // "bus", "mrt"
   export let name;
-  export let timings;
+  export let busStopId = null; // only required if type is "bus"
+  export let refresh = null;
+
+  let timings;
+
+  onMount(fetchData);
+
+  $: if (refresh != null) {
+    console.log("refreshing");
+    fetchData();
+  }
+
+  async function fetchData() {
+    if (type === "mrt") timings = await api.fetchMrtArrivalTimes(name);
+    else if (type === "bus")
+      timings = await api.fetchBusArrivalTimes(busStopId);
+  }
 
   function renderBusTiming(durationMs) {
     if (durationMs == null) return "";
