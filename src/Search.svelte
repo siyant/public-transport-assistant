@@ -10,7 +10,7 @@
 </script>
 
 <div class="content-centered">
-  <h1>Search</h1>
+  <h2>Search for MRT stations</h2>
   <div><BusMrtSelector handleChange={onSelect} /></div>
   {#if selected != null}
     {#key selected}

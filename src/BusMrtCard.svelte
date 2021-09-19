@@ -37,8 +37,9 @@
 
 <div class="card">
   <h3>
-    {#if type === "mrt"}<MrtCodePill station={name} />{/if}
-    <span class="vertical-center">{name}</span>
+    {#if type === "mrt"}<MrtCodePill station={name} />{/if}<span
+      class="vertical-center">{name}</span
+    >
   </h3>
 
   <table>
