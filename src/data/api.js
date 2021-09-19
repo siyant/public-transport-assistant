@@ -16,7 +16,7 @@ export async function fetchMrtArrivalTimes(stationName) {
       break;
     }
   }
-  const resultsCleaned = [];
+  let resultsCleaned = [];
 
   for (let platform of results) {
     // remove (Interchange) from destination station name
@@ -28,25 +28,50 @@ export async function fetchMrtArrivalTimes(stationName) {
       platform.subseq_train_destination =
         platform.subseq_train_destination.split(interchange)[0];
 
+    if (platform.next_train_arr === "N/A") platform.next_train_arr = "-";
+    if (platform.subseq_train_arr === "N/A") platform.subseq_train_arr = "-";
+
     // handle various cases
-    if (platform.next_train_destination === "N/A") {
-      // no more trains at the platform -> skip
-      continue;
-    } else if (
+    if (platform.next_train_destination === platform.subseq_train_destination) {
       // next train and subsequent train have the same destination
-      // -> add to resultsCleaned as 1 entry
-      platform.next_train_destination === platform.subseq_train_destination
-    ) {
-      resultsCleaned.push(platform);
+
+      if (
+        platform.next_train_destination === "Do not board" ||
+        platform.next_train_destination === "-"
+      ) {
+        // -> destination is not legit, skip
+        continue;
+      } else if (
+        platform.next_train_arr === "-" &&
+        platform.subseq_train_arr === "-"
+      ) {
+        // -> no more trains for this destination, add to resultsCleaned with next_train_* only
+        const { subseq_train_destination, subseq_train_arr, ...nextTrain } =
+          platform;
+        resultsCleaned.push(nextTrain);
+      } else {
+        // -> add to resultsCleaned as 1 entry
+        resultsCleaned.push(platform);
+      }
     } else {
       // next train and subsequent train have different destinations
-      // -> add to resultsCleaned as 2 entries
       const { subseq_train_destination, subseq_train_arr, ...nextTrain } =
         platform;
-      resultsCleaned.push(nextTrain);
+
+      // add next train to resultsCleaned if legit
+      if (
+        platform.next_train_destination !== "" &&
+        platform.next_train_destination !== "Do not board" &&
+        platform.next_train_arr !== ""
+      ) {
+        resultsCleaned.push(nextTrain);
+      }
+
+      // add subseq train to resultsCleaned if legit
       if (
         subseq_train_destination !== "" &&
-        subseq_train_destination !== "Do not board"
+        subseq_train_destination !== "Do not board" &&
+        subseq_train_arr !== ""
       ) {
         const subseqTrain = Object.assign({}, nextTrain, {
           next_train_destination: subseq_train_destination,
@@ -56,6 +81,10 @@ export async function fetchMrtArrivalTimes(stationName) {
       }
     }
   }
+
+  resultsCleaned = resultsCleaned.filter(
+    (r) => r.next_train_destination !== stationName
+  );
 
   return resultsCleaned;
 }
