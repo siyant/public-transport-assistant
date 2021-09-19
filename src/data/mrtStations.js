@@ -6,6 +6,6 @@ export function getMrtStations() {
 
 export function getStationCodesByName(stationName) {
   const station = mrtStations.find((s) => s.name === stationName);
-  if (station) return station.stationCodes;
+  if (station) return station.codes;
   else return null;
 }
