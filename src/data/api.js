@@ -1,9 +1,21 @@
 export async function fetchMrtArrivalTimes(stationName) {
-  const res = await fetch(
-    `https://connectv3.smrt.wwprojects.com/smrt/api/train_arrival_time_by_id/?station=${stationName}`
-  );
-  const resJson = await res.json();
-  const results = resJson.results;
+  let results = [];
+
+  // sometimes, the API will randomly return 1 result with mrt: "Lavender" and platform_ID: "".
+  // if this happens, try again up to 2 more times
+  for (let attempts = 0; attempts < 3; attempts++) {
+    const res = await fetch(
+      `https://connectv3.smrt.wwprojects.com/smrt/api/train_arrival_time_by_id/?station=${stationName}`
+    );
+    const resJson = await res.json();
+
+    if (resJson.results.length > 0 && resJson.results[0].platform_ID === "") {
+      continue;
+    } else {
+      results = resJson.results;
+      break;
+    }
+  }
   const resultsCleaned = [];
 
   for (let platform of results) {
@@ -32,7 +44,10 @@ export async function fetchMrtArrivalTimes(stationName) {
       const { subseq_train_destination, subseq_train_arr, ...nextTrain } =
         platform;
       resultsCleaned.push(nextTrain);
-      if (subseq_train_destination !== "") {
+      if (
+        subseq_train_destination !== "" &&
+        subseq_train_destination !== "Do not board"
+      ) {
         const subseqTrain = Object.assign({}, nextTrain, {
           next_train_destination: subseq_train_destination,
           next_train_arr: subseq_train_arr,
