@@ -1,0 +1,4688 @@
+{
+  "Admiralty": [
+    {
+      "direction": "Jurong East",
+      "firstTrain": {
+        "Jurong East": {
+          "Mon - Fri": "0535",
+          "Sat": "0534",
+          "Sun / PH": "0558"
+        }
+      },
+      "lastTrain": {
+        "Jurong East": {
+          "Mon - Fri": "0033",
+          "Sat": "0033",
+          "Sun / PH": "0033"
+        },
+        "Kranji": { "Mon - Fri": "0049", "Sat": "0049", "Sun / PH": "0049" }
+      }
+    },
+    {
+      "direction": "Marina South Pier",
+      "firstTrain": {
+        "Marina South Pier": {
+          "Mon - Fri": "0530",
+          "Sat": "0530",
+          "Sun / PH": "0548"
+        }
+      },
+      "lastTrain": {
+        "Marina South Pier": {
+          "Mon - Fri": "2316",
+          "Sat": "2316",
+          "Sun / PH": "2316"
+        },
+        "Marina Bay": {
+          "Mon - Fri": "2318",
+          "Sat": "2318",
+          "Sun / PH": "2318"
+        },
+        "Toa Payoh": { "Mon - Fri": "2353", "Sat": "2353", "Sun / PH": "2353" },
+        "Ang Mo Kio": { "Mon - Fri": "0042", "Sat": "0042", "Sun / PH": "0042" }
+      }
+    }
+  ],
+  "Aljunied": [
+    {
+      "direction": "Pasir Ris",
+      "firstTrain": {
+        "Pasir Ris": { "Mon - Fri": "0609", "Sat": "0609", "Sun / PH": "0637" }
+      },
+      "lastTrain": {
+        "Pasir Ris": { "Mon - Fri": "0020", "Sat": "0020", "Sun / PH": "0020" }
+      }
+    },
+    {
+      "direction": "Tuas Link",
+      "firstTrain": {
+        "Tuas Link": { "Mon - Fri": "0548", "Sat": "0548", "Sun / PH": "0614" }
+      },
+      "lastTrain": {
+        "Tuas Link": { "Mon - Fri": "2343", "Sat": "2343", "Sun / PH": "2343" }
+      }
+    }
+  ],
+  "Ang Mo Kio": [
+    {
+      "direction": "Jurong East",
+      "firstTrain": {
+        "Yishun": { "Mon - Fri": "0507", "Sat": "0507" },
+        "Jurong East": {
+          "Mon - Fri": "0517",
+          "Sat": "0516",
+          "Sun / PH": "0540"
+        }
+      },
+      "lastTrain": {
+        "Jurong East": {
+          "Mon - Fri": "0015",
+          "Sat": "0015",
+          "Sun / PH": "0015"
+        },
+        "Kranji": { "Mon - Fri": "0032", "Sat": "0032", "Sun / PH": "0032" }
+      }
+    },
+    {
+      "direction": "Marina South Pier",
+      "firstTrain": {
+        "Marina South Pier": {
+          "Mon - Fri": "0534",
+          "Sat": "0534",
+          "Sun / PH": "0607"
+        }
+      },
+      "lastTrain": {
+        "Marina South Pier": {
+          "Mon - Fri": "2334",
+          "Sat": "2334",
+          "Sun / PH": "2334"
+        },
+        "Marina Bay": {
+          "Mon - Fri": "2336",
+          "Sat": "2336",
+          "Sun / PH": "2336"
+        },
+        "Toa Payoh": { "Mon - Fri": "0011", "Sat": "0011", "Sun / PH": "0011" }
+      }
+    }
+  ],
+  "Bartley": [
+    {
+      "direction": "Dhoby Ghaut",
+      "firstTrain": {
+        "Dhoby Ghaut": {
+          "Mon - Fri": "0547",
+          "Sat": "0547",
+          "Sun / PH": "0614"
+        }
+      },
+      "lastTrain": {
+        "Dhoby Ghaut": {
+          "Mon - Fri": "2342",
+          "Sat": "2342",
+          "Sun / PH": "2342"
+        },
+        "Mountbatten": {
+          "Mon - Fri": "0019",
+          "Sat": "0019",
+          "Sun / PH": "0019"
+        }
+      }
+    },
+    {
+      "direction": "HarbourFront",
+      "firstTrain": {
+        "HarbourFront": {
+          "Mon - Fri": "0516",
+          "Sat": "0516",
+          "Sun / PH": "0540"
+        }
+      },
+      "lastTrain": {
+        "HarbourFront": {
+          "Mon - Fri": "2310",
+          "Sat": "2310",
+          "Sun / PH": "2310"
+        },
+        "Pasir Panjang": {
+          "Mon - Fri": "2341",
+          "Sat": "2341",
+          "Sun / PH": "2341"
+        },
+        "one-north": { "Mon - Fri": "2357", "Sat": "2357", "Sun / PH": "2357" },
+        "Caldecott": { "Mon - Fri": "0024", "Sat": "0024", "Sun / PH": "0024" }
+      }
+    }
+  ],
+  "Bayfront": [
+    {
+      "direction": "Marina Bay",
+      "firstTrain": {
+        "Marina Bay": { "Mon - Fri": "0617", "Sat": "0617", "Sun / PH": "0637" }
+      },
+      "lastTrain": {
+        "Marina Bay": { "Mon - Fri": "2351", "Sat": "2351", "Sun / PH": "2351" }
+      }
+    },
+    {
+      "direction": "Bukit Panjang",
+      "firstTrain": {
+        "Bukit Panjang": {
+          "Mon - Fri": "0615",
+          "Sat": "0615",
+          "Sun / PH": "0633"
+        }
+      },
+      "lastTrain": {
+        "Bukit Panjang": {
+          "Mon - Fri": "0015",
+          "Sat": "0015",
+          "Sun / PH": "0015"
+        }
+      }
+    },
+    {
+      "direction": "Expo",
+      "firstTrain": {
+        "Expo": { "Mon - Fri": "0602", "Sat": "0602", "Sun / PH": "0622" }
+      },
+      "lastTrain": {
+        "Expo": { "Mon - Fri": "0007", "Sat": "0007", "Sun / PH": "0007" }
+      }
+    }
+  ],
+  "Beauty World": [
+    {
+      "direction": "Bukit Panjang",
+      "firstTrain": {
+        "Bukit Panjang": {
+          "Mon - Fri": "0609",
+          "Sat": "0609",
+          "Sun / PH": "0630"
+        }
+      },
+      "lastTrain": {
+        "Bukit Panjang": {
+          "Mon - Fri": "0040",
+          "Sat": "0040",
+          "Sun / PH": "0040"
+        }
+      }
+    },
+    {
+      "direction": "Expo",
+      "firstTrain": {
+        "Expo": { "Mon - Fri": "0537", "Sat": "0537", "Sun / PH": "0557" }
+      },
+      "lastTrain": {
+        "Expo": { "Mon - Fri": "2342", "Sat": "2342", "Sun / PH": "2342" }
+      }
+    }
+  ],
+  "Bedok": [
+    {
+      "direction": "Pasir Ris",
+      "firstTrain": {
+        "Pasir Ris": { "Mon - Fri": "0618", "Sat": "0618", "Sun / PH": "0646" }
+      },
+      "lastTrain": {
+        "Pasir Ris": { "Mon - Fri": "0029", "Sat": "0029", "Sun / PH": "0029" }
+      }
+    },
+    {
+      "direction": "Tuas Link",
+      "firstTrain": {
+        "Tuas Link": { "Mon - Fri": "0539", "Sat": "0539", "Sun / PH": "0605" }
+      },
+      "lastTrain": {
+        "Tuas Link": { "Mon - Fri": "2334", "Sat": "2334", "Sun / PH": "2334" }
+      }
+    }
+  ],
+  "Bedok North": [
+    {
+      "direction": "Bukit Panjang",
+      "firstTrain": {
+        "Bukit Panjang": {
+          "Mon - Fri": "0550",
+          "Sat": "0550",
+          "Sun / PH": "0608"
+        }
+      },
+      "lastTrain": {
+        "Bukit Panjang": {
+          "Mon - Fri": "2354",
+          "Sat": "2354",
+          "Sun / PH": "2354"
+        }
+      }
+    },
+    {
+      "direction": "Expo",
+      "firstTrain": {
+        "Expo": { "Mon - Fri": "0609", "Sat": "0609", "Sun / PH": "0629" }
+      },
+      "lastTrain": {
+        "Expo": { "Mon - Fri": "0028", "Sat": "0028", "Sun / PH": "0028" }
+      }
+    }
+  ],
+  "Bedok Reservoir": [
+    {
+      "direction": "Bukit Panjang",
+      "firstTrain": {
+        "Bukit Panjang": {
+          "Mon - Fri": "0548",
+          "Sat": "0548",
+          "Sun / PH": "0606"
+        }
+      },
+      "lastTrain": {
+        "Bukit Panjang": {
+          "Mon - Fri": "2351",
+          "Sat": "2351",
+          "Sun / PH": "2351"
+        }
+      }
+    },
+    {
+      "direction": "Expo",
+      "firstTrain": {
+        "Expo": { "Mon - Fri": "0611", "Sat": "0611", "Sun / PH": "0631" }
+      },
+      "lastTrain": {
+        "Expo": { "Mon - Fri": "0030", "Sat": "0030", "Sun / PH": "0030" }
+      }
+    }
+  ],
+  "Bencoolen": [
+    {
+      "direction": "Bukit Panjang",
+      "firstTrain": {
+        "Bukit Panjang": {
+          "Mon - Fri": "0606",
+          "Sat": "0606",
+          "Sun / PH": "0624"
+        }
+      },
+      "lastTrain": {
+        "Bukit Panjang": {
+          "Mon - Fri": "0010",
+          "Sat": "0010",
+          "Sun / PH": "0010"
+        }
+      }
+    },
+    {
+      "direction": "Expo",
+      "firstTrain": {
+        "Expo": { "Mon - Fri": "0612", "Sat": "0612", "Sun / PH": "0631" }
+      },
+      "lastTrain": {
+        "Expo": { "Mon - Fri": "0012", "Sat": "0012", "Sun / PH": "0012" }
+      }
+    }
+  ],
+  "Bendemeer": [
+    {
+      "direction": "Bukit Panjang",
+      "firstTrain": {
+        "Bukit Panjang": {
+          "Mon - Fri": "0602",
+          "Sat": "0602",
+          "Sun / PH": "0620"
+        }
+      },
+      "lastTrain": {
+        "Bukit Panjang": {
+          "Mon - Fri": "0006",
+          "Sat": "0006",
+          "Sun / PH": "0006"
+        }
+      }
+    },
+    {
+      "direction": "Expo",
+      "firstTrain": {
+        "Expo": { "Mon - Fri": "0615", "Sat": "0615", "Sun / PH": "0635" }
+      },
+      "lastTrain": {
+        "Expo": { "Mon - Fri": "0016", "Sat": "0016", "Sun / PH": "0016" }
+      }
+    }
+  ],
+  "Bishan": [
+    {
+      "direction": "Jurong East",
+      "firstTrain": {
+        "Jurong East": {
+          "Mon - Fri": "0608",
+          "Sat": "0622",
+          "Sun / PH": "0630"
+        }
+      },
+      "lastTrain": {
+        "Jurong East": {
+          "Mon - Fri": "0012",
+          "Sat": "0012",
+          "Sun / PH": "0012"
+        },
+        "Kranji": { "Mon - Fri": "0028", "Sat": "0028", "Sun / PH": "0028" }
+      }
+    },
+    {
+      "direction": "Marina South Pier",
+      "firstTrain": {
+        "Marina South Pier": {
+          "Mon - Fri": "0537",
+          "Sat": "0537",
+          "Sun / PH": "0602"
+        }
+      },
+      "lastTrain": {
+        "Marina South Pier": {
+          "Mon - Fri": "2337",
+          "Sat": "2337",
+          "Sun / PH": "2337"
+        },
+        "Marina Bay": {
+          "Mon - Fri": "2339",
+          "Sat": "2339",
+          "Sun / PH": "2339"
+        },
+        "Toa Payoh": { "Mon - Fri": "0015", "Sat": "0015", "Sun / PH": "0015" }
+      }
+    },
+    {
+      "direction": "Dhoby Ghaut",
+      "firstTrain": {
+        "Dhoby Ghaut": {
+          "Mon - Fri": "0540",
+          "Sat": "0540",
+          "Sun / PH": "0607"
+        }
+      },
+      "lastTrain": {
+        "Dhoby Ghaut": {
+          "Mon - Fri": "2335",
+          "Sat": "2335",
+          "Sun / PH": "2335"
+        },
+        "Mountbatten": {
+          "Mon - Fri": "0012",
+          "Sat": "0012",
+          "Sun / PH": "0012"
+        },
+        "Bartley": { "Mon - Fri": "0036", "Sat": "0036", "Sun / PH": "0036" }
+      }
+    },
+    {
+      "direction": "HarbourFront",
+      "firstTrain": {
+        "HarbourFront": {
+          "Mon - Fri": "0523",
+          "Sat": "0523",
+          "Sun / PH": "0547"
+        }
+      },
+      "lastTrain": {
+        "HarbourFront": {
+          "Mon - Fri": "2318",
+          "Sat": "2318",
+          "Sun / PH": "2318"
+        },
+        "Pasir Panjang": {
+          "Mon - Fri": "2348",
+          "Sat": "2348",
+          "Sun / PH": "2348"
+        },
+        "one-north": { "Mon - Fri": "0004", "Sat": "0004", "Sun / PH": "0004" },
+        "Caldecott": { "Mon - Fri": "0032", "Sat": "0032", "Sun / PH": "0032" }
+      }
+    }
+  ],
+  "Boon Keng": [
+    {
+      "direction": "HarbourFront",
+      "firstTrain": {
+        "HarbourFront": {
+          "Mon - Fri": "0600",
+          "Sat": "0559",
+          "Sun / PH": "0621"
+        }
+      },
+      "lastTrain": {
+        "HarbourFront": {
+          "Mon - Fri": "2346",
+          "Sat": "2346",
+          "Sun / PH": "2346"
+        }
+      }
+    },
+    {
+      "direction": "Punggol",
+      "firstTrain": {
+        "Punggol": { "Mon - Fri": "0600", "Sat": "0615", "Sun / PH": "0635" }
+      },
+      "lastTrain": {
+        "Punggol": { "Mon - Fri": "0010", "Sat": "0010", "Sun / PH": "0010" }
+      }
+    }
+  ],
+  "Boon Lay": [
+    {
+      "direction": "Pasir Ris",
+      "firstTrain": {
+        "Pasir Ris": { "Mon - Fri": "0536", "Sat": "0536", "Sun / PH": "0606" }
+      },
+      "lastTrain": {
+        "Pasir Ris": { "Mon - Fri": "2338", "Sat": "2338", "Sun / PH": "2338" }
+      }
+    },
+    {
+      "direction": "Tuas Link",
+      "firstTrain": {
+        "Tuas Link": { "Mon - Fri": "0521", "Sat": "0521", "Sun / PH": "0551" }
+      },
+      "lastTrain": {
+        "Tuas Link": { "Mon - Fri": "0032", "Sat": "0032", "Sun / PH": "0032" }
+      }
+    }
+  ],
+  "Botanic Gardens": [
+    {
+      "direction": "Dhoby Ghaut",
+      "firstTrain": {
+        "Dhoby Ghaut": {
+          "Mon - Fri": "0545",
+          "Sat": "0545",
+          "Sun / PH": "0606"
+        }
+      },
+      "lastTrain": {
+        "Dhoby Ghaut": {
+          "Mon - Fri": "2325",
+          "Sat": "2325",
+          "Sun / PH": "2325"
+        },
+        "Mountbatten": {
+          "Mon - Fri": "0002",
+          "Sat": "0002",
+          "Sun / PH": "0002"
+        },
+        "Bartley": { "Mon - Fri": "0026", "Sat": "0026", "Sun / PH": "0026" }
+      }
+    },
+    {
+      "direction": "HarbourFront",
+      "firstTrain": {
+        "HarbourFront": {
+          "Mon - Fri": "0532",
+          "Sat": "0532",
+          "Sun / PH": "0557"
+        }
+      },
+      "lastTrain": {
+        "HarbourFront": {
+          "Mon - Fri": "2327",
+          "Sat": "2327",
+          "Sun / PH": "2327"
+        },
+        "Pasir Panjang": {
+          "Mon - Fri": "2357",
+          "Sat": "2357",
+          "Sun / PH": "2357"
+        },
+        "one-north": { "Mon - Fri": "0013", "Sat": "0013", "Sun / PH": "0013" }
+      }
+    },
+    {
+      "direction": "Bukit Panjang",
+      "firstTrain": {
+        "Bukit Panjang": {
+          "Mon - Fri": "0600",
+          "Sat": "0600",
+          "Sun / PH": "0621"
+        }
+      },
+      "lastTrain": {
+        "Bukit Panjang": {
+          "Mon - Fri": "0031",
+          "Sat": "0031",
+          "Sun / PH": "0031"
+        }
+      }
+    },
+    {
+      "direction": "Expo",
+      "firstTrain": {
+        "Expo": { "Mon - Fri": "0546", "Sat": "0546", "Sun / PH": "0606" }
+      },
+      "lastTrain": {
+        "Expo": { "Mon - Fri": "2351", "Sat": "2351", "Sun / PH": "2351" }
+      }
+    }
+  ],
+  "Braddell": [
+    {
+      "direction": "Jurong East",
+      "firstTrain": {
+        "Jurong East": {
+          "Mon - Fri": "0606",
+          "Sat": "0620",
+          "Sun / PH": "0627"
+        }
+      },
+      "lastTrain": {
+        "Jurong East": {
+          "Mon - Fri": "0009",
+          "Sat": "0009",
+          "Sun / PH": "0009"
+        },
+        "Kranji": { "Mon - Fri": "0026", "Sat": "0026", "Sun / PH": "0026" }
+      }
+    },
+    {
+      "direction": "Marina South Pier",
+      "firstTrain": {
+        "Marina South Pier": {
+          "Mon - Fri": "0539",
+          "Sat": "0539",
+          "Sun / PH": "0605"
+        }
+      },
+      "lastTrain": {
+        "Marina South Pier": {
+          "Mon - Fri": "2339",
+          "Sat": "2339",
+          "Sun / PH": "2339"
+        },
+        "Marina Bay": {
+          "Mon - Fri": "2341",
+          "Sat": "2341",
+          "Sun / PH": "2341"
+        },
+        "Toa Payoh": { "Mon - Fri": "0017", "Sat": "0017", "Sun / PH": "0017" }
+      }
+    }
+  ],
+  "Bras Basah": [
+    {
+      "direction": "Dhoby Ghaut",
+      "firstTrain": {
+        "Dhoby Ghaut": {
+          "Mon - Fri": "0554",
+          "Sat": "0554",
+          "Sun / PH": "0621"
+        }
+      },
+      "lastTrain": {
+        "Dhoby Ghaut": {
+          "Mon - Fri": "0003",
+          "Sat": "0003",
+          "Sun / PH": "0003"
+        }
+      }
+    },
+    {
+      "direction": "HarbourFront",
+      "firstTrain": {
+        "HarbourFront": {
+          "Mon - Fri": "0539",
+          "Sat": "0539",
+          "Sun / PH": "0606"
+        }
+      },
+      "lastTrain": {
+        "HarbourFront": {
+          "Mon - Fri": "2250",
+          "Sat": "2250",
+          "Sun / PH": "2250"
+        },
+        "Pasir Panjang": {
+          "Mon - Fri": "2320",
+          "Sat": "2320",
+          "Sun / PH": "2320"
+        },
+        "one-north": { "Mon - Fri": "2336", "Sat": "2336", "Sun / PH": "2336" },
+        "Caldecott": { "Mon - Fri": "0003", "Sat": "0003", "Sun / PH": "0003" },
+        "Tai Seng": { "Mon - Fri": "0011", "Sat": "0011", "Sun / PH": "0011" }
+      }
+    }
+  ],
+  "Bright Hill": [
+    {
+      "direction": "Woodlands North",
+      "firstTrain": {
+        "Woodlands North": {
+          "Mon - Fri": "0558",
+          "Sat": "0558",
+          "Sun / PH": "0558"
+        }
+      },
+      "lastTrain": {
+        "Woodlands North": {
+          "Mon - Fri": "2340",
+          "Sat": "2340",
+          "Sun / PH": "2340"
+        }
+      }
+    },
+    {
+      "direction": "Springleaf",
+      "firstTrain": {},
+      "lastTrain": {
+        "Springleaf": { "Mon - Fri": "2348", "Sat": "2348", "Sun / PH": "2348" }
+      }
+    },
+    {
+      "direction": "Caldecott",
+      "firstTrain": {
+        "Caldecott": { "Mon - Fri": "0554", "Sat": "0554", "Sun / PH": "0554" }
+      },
+      "lastTrain": {
+        "Caldecott": { "Mon - Fri": "2345", "Sat": "2345", "Sun / PH": "2345" }
+      }
+    }
+  ],
+  "Buangkok": [
+    {
+      "direction": "HarbourFront",
+      "firstTrain": {
+        "HarbourFront": {
+          "Mon - Fri": "0546",
+          "Sat": "0546",
+          "Sun / PH": "0607"
+        }
+      },
+      "lastTrain": {
+        "HarbourFront": {
+          "Mon - Fri": "2332",
+          "Sat": "2332",
+          "Sun / PH": "2332"
+        }
+      }
+    },
+    {
+      "direction": "Punggol",
+      "firstTrain": {
+        "Punggol": { "Mon - Fri": "0613", "Sat": "0628", "Sun / PH": "0648" }
+      },
+      "lastTrain": {
+        "Punggol": { "Mon - Fri": "0024", "Sat": "0023", "Sun / PH": "0023" }
+      }
+    }
+  ],
+  "Bugis": [
+    {
+      "direction": "Pasir Ris",
+      "firstTrain": {
+        "Pasir Ris": { "Mon - Fri": "0603", "Sat": "0603", "Sun / PH": "0631" }
+      },
+      "lastTrain": {
+        "Pasir Ris": { "Mon - Fri": "0014", "Sat": "0014", "Sun / PH": "0014" }
+      }
+    },
+    {
+      "direction": "Tuas Link",
+      "firstTrain": {
+        "Tuas Link": { "Mon - Fri": "0554", "Sat": "0554", "Sun / PH": "0620" }
+      },
+      "lastTrain": {
+        "Tuas Link": { "Mon - Fri": "2349", "Sat": "2349", "Sun / PH": "2349" }
+      }
+    },
+    {
+      "direction": "Bukit Panjang",
+      "firstTrain": {
+        "Bukit Panjang": {
+          "Mon - Fri": "0603",
+          "Sat": "0603",
+          "Sun / PH": "0632"
+        }
+      },
+      "lastTrain": {
+        "Bukit Panjang": {
+          "Mon - Fri": "0020",
+          "Sat": "0020",
+          "Sun / PH": "0020"
+        }
+      }
+    },
+    {
+      "direction": "Expo",
+      "firstTrain": {
+        "Expo": { "Mon - Fri": "0557", "Sat": "0557", "Sun / PH": "0617" }
+      },
+      "lastTrain": {
+        "Expo": { "Mon - Fri": "0003", "Sat": "0003", "Sun / PH": "0003" }
+      }
+    }
+  ],
+  "Bukit Batok": [
+    {
+      "direction": "Jurong East",
+      "firstTrain": {
+        "Jurong East": {
+          "Mon - Fri": "0545",
+          "Sat": "0545",
+          "Sun / PH": "0608"
+        }
+      },
+      "lastTrain": {
+        "Jurong East": {
+          "Mon - Fri": "0055",
+          "Sat": "0055",
+          "Sun / PH": "0055"
+        }
+      }
+    },
+    {
+      "direction": "Marina South Pier",
+      "firstTrain": {
+        "Marina South Pier": {
+          "Mon - Fri": "0519",
+          "Sat": "0519",
+          "Sun / PH": "0538"
+        }
+      },
+      "lastTrain": {
+        "Marina South Pier": {
+          "Mon - Fri": "2250",
+          "Sat": "2250",
+          "Sun / PH": "2250"
+        },
+        "Marina Bay": {
+          "Mon - Fri": "2256",
+          "Sat": "2256",
+          "Sun / PH": "2256"
+        },
+        "Toa Payoh": { "Mon - Fri": "2331", "Sat": "2331", "Sun / PH": "2331" },
+        "Ang Mo Kio": { "Mon - Fri": "0020", "Sat": "0020", "Sun / PH": "0020" }
+      }
+    }
+  ],
+  "Bukit Gombak": [
+    {
+      "direction": "Jurong East",
+      "firstTrain": {
+        "Jurong East": {
+          "Mon - Fri": "0543",
+          "Sat": "0543",
+          "Sun / PH": "0606"
+        }
+      },
+      "lastTrain": {
+        "Jurong East": {
+          "Mon - Fri": "0052",
+          "Sat": "0052",
+          "Sun / PH": "0052"
+        }
+      }
+    },
+    {
+      "direction": "Marina South Pier",
+      "firstTrain": {
+        "Marina South Pier": {
+          "Mon - Fri": "0521",
+          "Sat": "0521",
+          "Sun / PH": "0540"
+        }
+      },
+      "lastTrain": {
+        "Marina South Pier": {
+          "Mon - Fri": "2252",
+          "Sat": "2252",
+          "Sun / PH": "2252"
+        },
+        "Marina Bay": {
+          "Mon - Fri": "2258",
+          "Sat": "2258",
+          "Sun / PH": "2258"
+        },
+        "Toa Payoh": { "Mon - Fri": "2333", "Sat": "2333", "Sun / PH": "2333" },
+        "Ang Mo Kio": { "Mon - Fri": "0022", "Sat": "0022", "Sun / PH": "0022" }
+      }
+    }
+  ],
+  "Bukit Panjang": [
+    {
+      "direction": "Expo",
+      "firstTrain": {
+        "Expo": { "Mon - Fri": "0530", "Sat": "0530", "Sun / PH": "0550" }
+      },
+      "lastTrain": {
+        "Expo": { "Mon - Fri": "2335", "Sat": "2335", "Sun / PH": "2335" }
+      }
+    },
+    {
+      "direction": "Choa Chu Kang",
+      "firstTrain": {
+        "Connect to Senja": {
+          "Mon - Fri": "0459",
+          "Sat": "0459",
+          "Sun / PH": "0518"
+        },
+        "Connect to Petir": {
+          "Mon - Fri": "0505",
+          "Sat": "0505",
+          "Sun / PH": "0524"
+        }
+      },
+      "lastTrain": {
+        "Connect to Petir": {
+          "Mon - Fri": "0047",
+          "Sat": "0047",
+          "Sun / PH": "0047"
+        },
+        "Connect to Senja": {
+          "Mon - Fri": "0102",
+          "Sat": "0102",
+          "Sun / PH": "0102"
+        }
+      }
+    }
+  ],
+  "Buona Vista": [
+    {
+      "direction": "Dhoby Ghaut",
+      "firstTrain": {
+        "Dhoby Ghaut": {
+          "Mon - Fri": "0539",
+          "Sat": "0539",
+          "Sun / PH": "0600"
+        }
+      },
+      "lastTrain": {
+        "Dhoby Ghaut": {
+          "Mon - Fri": "2319",
+          "Sat": "2319",
+          "Sun / PH": "2319"
+        },
+        "Mountbatten": {
+          "Mon - Fri": "2356",
+          "Sat": "2356",
+          "Sun / PH": "2356"
+        },
+        "Bartley": { "Mon - Fri": "0019", "Sat": "0019", "Sun / PH": "0019" }
+      }
+    },
+    {
+      "direction": "HarbourFront",
+      "firstTrain": {
+        "HarbourFront": {
+          "Mon - Fri": "0539",
+          "Sat": "0539",
+          "Sun / PH": "0603"
+        }
+      },
+      "lastTrain": {
+        "HarbourFront": {
+          "Mon - Fri": "2334",
+          "Sat": "2334",
+          "Sun / PH": "2334"
+        },
+        "Pasir Panjang": {
+          "Mon - Fri": "0004",
+          "Sat": "0004",
+          "Sun / PH": "0004"
+        },
+        "one-north": { "Mon - Fri": "0020", "Sat": "0020", "Sun / PH": "0020" }
+      }
+    },
+    {
+      "direction": "Pasir Ris",
+      "firstTrain": {
+        "Pasir Ris": { "Mon - Fri": "0543", "Sat": "0543", "Sun / PH": "0611" }
+      },
+      "lastTrain": {
+        "Pasir Ris": { "Mon - Fri": "2353", "Sat": "2353", "Sun / PH": "2353" }
+      }
+    },
+    {
+      "direction": "Tuas Link",
+      "firstTrain": {
+        "Tuas Link": { "Mon - Fri": "0616", "Sat": "0616", "Sun / PH": "0642" }
+      },
+      "lastTrain": {
+        "Tuas Link": { "Mon - Fri": "0015", "Sat": "0015", "Sun / PH": "0015" }
+      }
+    }
+  ],
+  "Caldecott": [
+    {
+      "direction": "Dhoby Ghaut",
+      "firstTrain": {
+        "Dhoby Ghaut": {
+          "Mon - Fri": "0534",
+          "Sat": "0534",
+          "Sun / PH": "0602"
+        }
+      },
+      "lastTrain": {
+        "Dhoby Ghaut": {
+          "Mon - Fri": "2330",
+          "Sat": "2330",
+          "Sun / PH": "2330"
+        },
+        "Mountbatten": {
+          "Mon - Fri": "0007",
+          "Sat": "0007",
+          "Sun / PH": "0007"
+        },
+        "Bartley": { "Mon - Fri": "0030", "Sat": "0030", "Sun / PH": "0030" }
+      }
+    },
+    {
+      "direction": "HarbourFront",
+      "firstTrain": {
+        "HarbourFront": {
+          "Mon - Fri": "0528",
+          "Sat": "0528",
+          "Sun / PH": "0552"
+        }
+      },
+      "lastTrain": {
+        "HarbourFront": {
+          "Mon - Fri": "2323",
+          "Sat": "2323",
+          "Sun / PH": "2323"
+        },
+        "Pasir Panjang": {
+          "Mon - Fri": "2353",
+          "Sat": "2353",
+          "Sun / PH": "2353"
+        },
+        "one-north": { "Mon - Fri": "0009", "Sat": "0009", "Sun / PH": "0009" }
+      }
+    },
+    {
+      "direction": "Woodlands North",
+      "firstTrain": {
+        "Woodlands North": {
+          "Mon - Fri": "0553",
+          "Sat": "0553",
+          "Sun / PH": "0553"
+        }
+      },
+      "lastTrain": {
+        "Woodlands North": {
+          "Mon - Fri": "2335",
+          "Sat": "2335",
+          "Sun / PH": "2335"
+        }
+      }
+    },
+    {
+      "direction": "Springleaf",
+      "firstTrain": {},
+      "lastTrain": {
+        "Springleaf": { "Mon - Fri": "2343", "Sat": "2343", "Sun / PH": "2343" }
+      }
+    }
+  ],
+  "Canberra": [
+    {
+      "direction": "Jurong East",
+      "firstTrain": {
+        "Jurong East": {
+          "Mon - Fri": "0529",
+          "Sat": "0529",
+          "Sun / PH": "0552"
+        }
+      },
+      "lastTrain": {
+        "Jurong East": {
+          "Mon - Fri": "0031",
+          "Sat": "0031",
+          "Sun / PH": "0031"
+        },
+        "Kranji": { "Mon - Fri": "0047", "Sat": "0047", "Sun / PH": "0047" }
+      }
+    },
+    {
+      "direction": "Marina South Pier",
+      "firstTrain": {
+        "Marina South Pier": {
+          "Mon - Fri": "0535",
+          "Sat": "0535",
+          "Sun / PH": "0551"
+        }
+      },
+      "lastTrain": {
+        "Marina South Pier": {
+          "Mon - Fri": "2317",
+          "Sat": "2317",
+          "Sun / PH": "2317"
+        },
+        "Marina Bay": {
+          "Mon - Fri": "2325",
+          "Sat": "2325",
+          "Sun / PH": "2325"
+        },
+        "Toa Payoh": { "Mon - Fri": "2359", "Sat": "2359", "Sun / PH": "2359" },
+        "Ang Mo Kio": { "Mon - Fri": "0048", "Sat": "0048", "Sun / PH": "0048" }
+      }
+    }
+  ],
+  "Cashew": [
+    {
+      "direction": "Bukit Panjang",
+      "firstTrain": {
+        "Bukit Panjang": {
+          "Mon - Fri": "0614",
+          "Sat": "0614",
+          "Sun / PH": "0635"
+        }
+      },
+      "lastTrain": {
+        "Bukit Panjang": {
+          "Mon - Fri": "0046",
+          "Sat": "0046",
+          "Sun / PH": "0046"
+        }
+      }
+    },
+    {
+      "direction": "Expo",
+      "firstTrain": {
+        "Expo": { "Mon - Fri": "0532", "Sat": "0532", "Sun / PH": "0552" }
+      },
+      "lastTrain": {
+        "Expo": { "Mon - Fri": "2337", "Sat": "2337", "Sun / PH": "2337" }
+      }
+    }
+  ],
+  "Changi Airport": [
+    {
+      "direction": "Tanah Merah",
+      "firstTrain": {
+        "Tanah Merah": {
+          "Mon - Fri": "0531",
+          "Sat": "0531",
+          "Sun / PH": "0559"
+        }
+      },
+      "lastTrain": {
+        "Tanah Merah (Connect to Joo Koon)": {
+          "Mon - Fri": "2318",
+          "Sat": "2318",
+          "Sun / PH": "2318"
+        },
+        "Tanah Merah (Connect to Pasir Ris)": {
+          "Mon - Fri": "0006",
+          "Sat": "0006",
+          "Sun / PH": "0006"
+        }
+      }
+    }
+  ],
+  "Chinatown": [
+    {
+      "direction": "HarbourFront",
+      "firstTrain": {
+        "HarbourFront": {
+          "Mon - Fri": "0610",
+          "Sat": "0609",
+          "Sun / PH": "0630"
+        }
+      },
+      "lastTrain": {
+        "HarbourFront": {
+          "Mon - Fri": "2356",
+          "Sat": "2355",
+          "Sun / PH": "2355"
+        }
+      }
+    },
+    {
+      "direction": "Punggol",
+      "firstTrain": {
+        "Punggol": { "Mon - Fri": "0550", "Sat": "0605", "Sun / PH": "0625" }
+      },
+      "lastTrain": {
+        "Punggol": { "Mon - Fri": "0000", "Sat": "0000", "Sun / PH": "0000" }
+      }
+    },
+    {
+      "direction": "Bukit Panjang",
+      "firstTrain": {
+        "Bukit Panjang": {
+          "Mon - Fri": "0610",
+          "Sat": "0610",
+          "Sun / PH": "0628"
+        }
+      },
+      "lastTrain": {
+        "Bukit Panjang": {
+          "Mon - Fri": "0014",
+          "Sat": "0014",
+          "Sun / PH": "0014"
+        }
+      }
+    },
+    {
+      "direction": "Expo",
+      "firstTrain": {
+        "Expo": { "Mon - Fri": "0608", "Sat": "0608", "Sun / PH": "0628" }
+      },
+      "lastTrain": {
+        "Expo": { "Mon - Fri": "0009", "Sat": "0009", "Sun / PH": "0009" }
+      }
+    }
+  ],
+  "Chinese Garden": [
+    {
+      "direction": "Pasir Ris",
+      "firstTrain": {
+        "Pasir Ris": { "Mon - Fri": "0540", "Sat": "0540", "Sun / PH": "0610" }
+      },
+      "lastTrain": {
+        "Pasir Ris": { "Mon - Fri": "2342", "Sat": "2342", "Sun / PH": "2342" }
+      }
+    },
+    {
+      "direction": "Tuas Link",
+      "firstTrain": {
+        "Tuas Link": { "Mon - Fri": "0517", "Sat": "0517", "Sun / PH": "0547" }
+      },
+      "lastTrain": {
+        "Tuas Link": { "Mon - Fri": "0027", "Sat": "0027", "Sun / PH": "0027" }
+      }
+    }
+  ],
+  "Choa Chu Kang": [
+    {
+      "direction": "Jurong East",
+      "firstTrain": {
+        "Jurong East": {
+          "Mon - Fri": "0540",
+          "Sat": "0540",
+          "Sun / PH": "0603"
+        }
+      },
+      "lastTrain": {
+        "Jurong East": {
+          "Mon - Fri": "0049",
+          "Sat": "0049",
+          "Sun / PH": "0049"
+        }
+      }
+    },
+    {
+      "direction": "Marina South Pier",
+      "firstTrain": {
+        "Marina South Pier": {
+          "Mon - Fri": "0525",
+          "Sat": "0525",
+          "Sun / PH": "0544"
+        }
+      },
+      "lastTrain": {
+        "Marina South Pier": {
+          "Mon - Fri": "2255",
+          "Sat": "2255",
+          "Sun / PH": "2255"
+        },
+        "Marina Bay": {
+          "Mon - Fri": "2301",
+          "Sat": "2301",
+          "Sun / PH": "2301"
+        },
+        "Toa Payoh": { "Mon - Fri": "2337", "Sat": "2337", "Sun / PH": "2337" },
+        "Ang Mo Kio": { "Mon - Fri": "0026", "Sat": "0026", "Sun / PH": "0026" }
+      }
+    }
+  ],
+  "City Hall": [
+    {
+      "direction": "Pasir Ris",
+      "firstTrain": {
+        "Pasir Ris": { "Mon - Fri": "0601", "Sat": "0601", "Sun / PH": "0629" }
+      },
+      "lastTrain": {
+        "Pasir Ris": { "Mon - Fri": "0011", "Sat": "0011", "Sun / PH": "0011" }
+      }
+    },
+    {
+      "direction": "Tuas Link",
+      "firstTrain": {
+        "Tuas Link": { "Mon - Fri": "0557", "Sat": "0557", "Sun / PH": "0624" }
+      },
+      "lastTrain": {
+        "Tuas Link": { "Mon - Fri": "2352", "Sat": "2352", "Sun / PH": "2352" }
+      }
+    },
+    {
+      "direction": "Jurong East",
+      "firstTrain": {
+        "Jurong East": {
+          "Mon - Fri": "0605",
+          "Sat": "0605",
+          "Sun / PH": "0630"
+        }
+      },
+      "lastTrain": {
+        "Jurong East": {
+          "Mon - Fri": "2355",
+          "Sat": "2355",
+          "Sun / PH": "2355"
+        },
+        "Kranji": { "Mon - Fri": "0011", "Sat": "0011", "Sun / PH": "0011" }
+      }
+    },
+    {
+      "direction": "Marina South Pier",
+      "firstTrain": {
+        "Marina South Pier": {
+          "Mon - Fri": "0554",
+          "Sat": "0554",
+          "Sun / PH": "0620"
+        }
+      },
+      "lastTrain": {
+        "Marina South Pier": {
+          "Mon - Fri": "2352",
+          "Sat": "2352",
+          "Sun / PH": "2352"
+        },
+        "Marina Bay": { "Mon - Fri": "2356", "Sat": "2356", "Sun / PH": "2356" }
+      }
+    }
+  ],
+  "Clarke Quay": [
+    {
+      "direction": "HarbourFront",
+      "firstTrain": {
+        "HarbourFront": {
+          "Mon - Fri": "0608",
+          "Sat": "0607",
+          "Sun / PH": "0629"
+        }
+      },
+      "lastTrain": {
+        "HarbourFront": {
+          "Mon - Fri": "2354",
+          "Sat": "2353",
+          "Sun / PH": "2353"
+        }
+      }
+    },
+    {
+      "direction": "Punggol",
+      "firstTrain": {
+        "Punggol": { "Mon - Fri": "0551", "Sat": "0607", "Sun / PH": "0627" }
+      },
+      "lastTrain": {
+        "Punggol": { "Mon - Fri": "0002", "Sat": "0002", "Sun / PH": "0002" }
+      }
+    }
+  ],
+  "Clementi": [
+    {
+      "direction": "Pasir Ris",
+      "firstTrain": {
+        "Pasir Ris": { "Mon - Fri": "0538", "Sat": "0538", "Sun / PH": "0606" }
+      },
+      "lastTrain": {
+        "Pasir Ris": { "Mon - Fri": "2349", "Sat": "2349", "Sun / PH": "2349" }
+      }
+    },
+    {
+      "direction": "Tuas Link",
+      "firstTrain": {
+        "Tuas Link": { "Mon - Fri": "0621", "Sat": "0621", "Sun / PH": "0647" }
+      },
+      "lastTrain": {
+        "Tuas Link": { "Mon - Fri": "0020", "Sat": "0020", "Sun / PH": "0020" }
+      }
+    }
+  ],
+  "Commonwealth": [
+    {
+      "direction": "Pasir Ris",
+      "firstTrain": {
+        "Pasir Ris": { "Mon - Fri": "0545", "Sat": "0545", "Sun / PH": "0613" }
+      },
+      "lastTrain": {
+        "Pasir Ris": { "Mon - Fri": "2355", "Sat": "2355", "Sun / PH": "2355" }
+      }
+    },
+    {
+      "direction": "Tuas Link",
+      "firstTrain": {
+        "Tuas Link": { "Mon - Fri": "0613", "Sat": "0613", "Sun / PH": "0639" }
+      },
+      "lastTrain": {
+        "Tuas Link": { "Mon - Fri": "0013", "Sat": "0013", "Sun / PH": "0013" }
+      }
+    }
+  ],
+  "Dakota": [
+    {
+      "direction": "Dhoby Ghaut",
+      "firstTrain": {
+        "Dhoby Ghaut": {
+          "Mon - Fri": "0542",
+          "Sat": "0542",
+          "Sun / PH": "0609"
+        }
+      },
+      "lastTrain": {
+        "Dhoby Ghaut": {
+          "Mon - Fri": "2351",
+          "Sat": "2351",
+          "Sun / PH": "2351"
+        },
+        "Mountbatten": {
+          "Mon - Fri": "0028",
+          "Sat": "0028",
+          "Sun / PH": "0028"
+        }
+      }
+    },
+    {
+      "direction": "HarbourFront",
+      "firstTrain": {
+        "HarbourFront": {
+          "Mon - Fri": "0537",
+          "Sat": "0537",
+          "Sun / PH": "0604"
+        }
+      },
+      "lastTrain": {
+        "HarbourFront": {
+          "Mon - Fri": "2301",
+          "Sat": "2301",
+          "Sun / PH": "2301"
+        },
+        "Pasir Panjang": {
+          "Mon - Fri": "2332",
+          "Sat": "2332",
+          "Sun / PH": "2332"
+        },
+        "one-north": { "Mon - Fri": "2348", "Sat": "2348", "Sun / PH": "2348" },
+        "Caldecott": { "Mon - Fri": "0015", "Sat": "0015", "Sun / PH": "0015" },
+        "Tai Seng": { "Mon - Fri": "0023", "Sat": "0023", "Sun / PH": "0023" }
+      }
+    }
+  ],
+  "Dhoby Ghaut": [
+    {
+      "direction": "Jurong East",
+      "firstTrain": {
+        "Jurong East": {
+          "Mon - Fri": "0607",
+          "Sat": "0607",
+          "Sun / PH": "0632"
+        }
+      },
+      "lastTrain": {
+        "Jurong East": {
+          "Mon - Fri": "2357",
+          "Sat": "2357",
+          "Sun / PH": "2357"
+        },
+        "Kranji": { "Mon - Fri": "0013", "Sat": "0013", "Sun / PH": "0013" }
+      }
+    },
+    {
+      "direction": "Marina South Pier",
+      "firstTrain": {
+        "Marina South Pier": {
+          "Mon - Fri": "0552",
+          "Sat": "0552",
+          "Sun / PH": "0617"
+        }
+      },
+      "lastTrain": {
+        "Marina South Pier": {
+          "Mon - Fri": "2350",
+          "Sat": "2350",
+          "Sun / PH": "2350"
+        },
+        "Marina Bay": { "Mon - Fri": "2354", "Sat": "2354", "Sun / PH": "2354" }
+      }
+    },
+    {
+      "direction": "HarbourFront",
+      "firstTrain": {
+        "HarbourFront": {
+          "Mon - Fri": "0606",
+          "Sat": "0605",
+          "Sun / PH": "0626"
+        }
+      },
+      "lastTrain": {
+        "HarbourFront": {
+          "Mon - Fri": "2352",
+          "Sat": "2351",
+          "Sun / PH": "2351"
+        }
+      }
+    },
+    {
+      "direction": "Punggol",
+      "firstTrain": {
+        "Punggol": { "Mon - Fri": "0554", "Sat": "0610", "Sun / PH": "0629" }
+      },
+      "lastTrain": {
+        "Punggol": { "Mon - Fri": "0004", "Sat": "0004", "Sun / PH": "0004" }
+      }
+    },
+    {
+      "direction": "HarbourFront",
+      "firstTrain": {
+        "HarbourFront": {
+          "Mon - Fri": "0537",
+          "Sat": "0537",
+          "Sun / PH": "0605"
+        }
+      },
+      "lastTrain": {
+        "HarbourFront": {
+          "Mon - Fri": "2248",
+          "Sat": "2248",
+          "Sun / PH": "2248"
+        },
+        "Pasir Panjang": {
+          "Mon - Fri": "2318",
+          "Sat": "2318",
+          "Sun / PH": "2318"
+        },
+        "one-north": { "Mon - Fri": "2334", "Sat": "2334", "Sun / PH": "2334" },
+        "Caldecott": { "Mon - Fri": "0002", "Sat": "0002", "Sun / PH": "0002" },
+        "Tai Seng": { "Mon - Fri": "0010", "Sat": "0010", "Sun / PH": "0010" }
+      }
+    }
+  ],
+  "Dover": [
+    {
+      "direction": "Pasir Ris",
+      "firstTrain": {
+        "Pasir Ris": { "Mon - Fri": "0540", "Sat": "0540", "Sun / PH": "0608" }
+      },
+      "lastTrain": {
+        "Pasir Ris": { "Mon - Fri": "2351", "Sat": "2351", "Sun / PH": "2351" }
+      }
+    },
+    {
+      "direction": "Tuas Link",
+      "firstTrain": {
+        "Tuas Link": { "Mon - Fri": "0618", "Sat": "0618", "Sun / PH": "0644" }
+      },
+      "lastTrain": {
+        "Tuas Link": { "Mon - Fri": "0017", "Sat": "0017", "Sun / PH": "0017" }
+      }
+    }
+  ],
+  "Downtown": [
+    {
+      "direction": "Bukit Panjang",
+      "firstTrain": {
+        "Bukit Panjang": {
+          "Mon - Fri": "0613",
+          "Sat": "0613",
+          "Sun / PH": "0631"
+        }
+      },
+      "lastTrain": {
+        "Bukit Panjang": {
+          "Mon - Fri": "0013",
+          "Sat": "0013",
+          "Sun / PH": "0013"
+        }
+      }
+    },
+    {
+      "direction": "Expo",
+      "firstTrain": {
+        "Expo": { "Mon - Fri": "0604", "Sat": "0604", "Sun / PH": "0624" }
+      },
+      "lastTrain": {
+        "Expo": { "Mon - Fri": "0009", "Sat": "0009", "Sun / PH": "0009" }
+      }
+    }
+  ],
+  "Esplanade": [
+    {
+      "direction": "Dhoby Ghaut",
+      "firstTrain": {
+        "Dhoby Ghaut": {
+          "Mon - Fri": "0552",
+          "Sat": "0552",
+          "Sun / PH": "0619"
+        }
+      },
+      "lastTrain": {
+        "Dhoby Ghaut": {
+          "Mon - Fri": "0001",
+          "Sat": "0001",
+          "Sun / PH": "0001"
+        }
+      }
+    },
+    {
+      "direction": "HarbourFront",
+      "firstTrain": {
+        "HarbourFront": {
+          "Mon - Fri": "0541",
+          "Sat": "0541",
+          "Sun / PH": "0608"
+        }
+      },
+      "lastTrain": {
+        "HarbourFront": {
+          "Mon - Fri": "2251",
+          "Sat": "2251",
+          "Sun / PH": "2251"
+        },
+        "Pasir Panjang": {
+          "Mon - Fri": "2322",
+          "Sat": "2322",
+          "Sun / PH": "2322"
+        },
+        "one-north": { "Mon - Fri": "2338", "Sat": "2338", "Sun / PH": "2338" },
+        "Caldecott": { "Mon - Fri": "0005", "Sat": "0005", "Sun / PH": "0005" },
+        "Tai Seng": { "Mon - Fri": "0013", "Sat": "0013", "Sun / PH": "0013" }
+      }
+    }
+  ],
+  "Eunos": [
+    {
+      "direction": "Pasir Ris",
+      "firstTrain": {
+        "Pasir Ris": { "Mon - Fri": "0613", "Sat": "0613", "Sun / PH": "0641" }
+      },
+      "lastTrain": {
+        "Pasir Ris": { "Mon - Fri": "0024", "Sat": "0024", "Sun / PH": "0024" }
+      }
+    },
+    {
+      "direction": "Tuas Link",
+      "firstTrain": {
+        "Tuas Link": { "Mon - Fri": "0544", "Sat": "0544", "Sun / PH": "0610" }
+      },
+      "lastTrain": {
+        "Tuas Link": { "Mon - Fri": "2339", "Sat": "2339", "Sun / PH": "2339" }
+      }
+    }
+  ],
+  "Expo": [
+    {
+      "direction": "Tanah Merah",
+      "firstTrain": {
+        "Tanah Merah": {
+          "Mon - Fri": "0536",
+          "Sat": "0536",
+          "Sun / PH": "0604"
+        }
+      },
+      "lastTrain": {
+        "Tanah Merah (Connect to Joo Koon)": {
+          "Mon - Fri": "2323",
+          "Sat": "2323",
+          "Sun / PH": "2323"
+        },
+        "Tanah Merah (Connect to Pasir Ris)": {
+          "Mon - Fri": "0011",
+          "Sat": "0011",
+          "Sun / PH": "0011"
+        }
+      }
+    },
+    {
+      "direction": "Changi Airport",
+      "firstTrain": {
+        "Changi Airport": {
+          "Mon - Fri": "0523",
+          "Sat": "0523",
+          "Sun / PH": "0549"
+        }
+      },
+      "lastTrain": {
+        "Changi Airport": {
+          "Mon - Fri": "2354",
+          "Sat": "2354",
+          "Sun / PH": "2354"
+        }
+      }
+    },
+    {
+      "direction": "Bukit Panjang",
+      "firstTrain": {
+        "Bukit Panjang": {
+          "Mon - Fri": "0536",
+          "Sat": "0536",
+          "Sun / PH": "0554"
+        }
+      },
+      "lastTrain": {
+        "Bukit Panjang": {
+          "Mon - Fri": "2340",
+          "Sat": "2340",
+          "Sun / PH": "2340"
+        }
+      }
+    }
+  ],
+  "Farrer Park": [
+    {
+      "direction": "HarbourFront",
+      "firstTrain": {
+        "HarbourFront": {
+          "Mon - Fri": "0602",
+          "Sat": "0601",
+          "Sun / PH": "0622"
+        }
+      },
+      "lastTrain": {
+        "HarbourFront": {
+          "Mon - Fri": "2348",
+          "Sat": "2347",
+          "Sun / PH": "2347"
+        }
+      }
+    },
+    {
+      "direction": "Punggol",
+      "firstTrain": {
+        "Punggol": { "Mon - Fri": "0558", "Sat": "0613", "Sun / PH": "0633" }
+      },
+      "lastTrain": {
+        "Punggol": { "Mon - Fri": "0008", "Sat": "0008", "Sun / PH": "0008" }
+      }
+    }
+  ],
+  "Farrer Road": [
+    {
+      "direction": "Dhoby Ghaut",
+      "firstTrain": {
+        "Dhoby Ghaut": {
+          "Mon - Fri": "0543",
+          "Sat": "0543",
+          "Sun / PH": "0604"
+        }
+      },
+      "lastTrain": {
+        "Dhoby Ghaut": {
+          "Mon - Fri": "2323",
+          "Sat": "2323",
+          "Sun / PH": "2323"
+        },
+        "Mountbatten": {
+          "Mon - Fri": "0000",
+          "Sat": "0000",
+          "Sun / PH": "0000"
+        },
+        "Bartley": { "Mon - Fri": "0024", "Sat": "0024", "Sun / PH": "0024" }
+      }
+    },
+    {
+      "direction": "HarbourFront",
+      "firstTrain": {
+        "HarbourFront": {
+          "Mon - Fri": "0534",
+          "Sat": "0534",
+          "Sun / PH": "0559"
+        }
+      },
+      "lastTrain": {
+        "HarbourFront": {
+          "Mon - Fri": "2329",
+          "Sat": "2329",
+          "Sun / PH": "2329"
+        },
+        "Pasir Panjang": {
+          "Mon - Fri": "2359",
+          "Sat": "2359",
+          "Sun / PH": "2359"
+        },
+        "one-north": { "Mon - Fri": "0015", "Sat": "0015", "Sun / PH": "0015" }
+      }
+    }
+  ],
+  "Fort Canning": [
+    {
+      "direction": "Bukit Panjang",
+      "firstTrain": {
+        "Bukit Panjang": {
+          "Mon - Fri": "0608",
+          "Sat": "0608",
+          "Sun / PH": "0626"
+        }
+      },
+      "lastTrain": {
+        "Bukit Panjang": {
+          "Mon - Fri": "0011",
+          "Sat": "0011",
+          "Sun / PH": "0011"
+        }
+      }
+    },
+    {
+      "direction": "Expo",
+      "firstTrain": {
+        "Expo": { "Mon - Fri": "0610", "Sat": "0610", "Sun / PH": "0630" }
+      },
+      "lastTrain": {
+        "Expo": { "Mon - Fri": "0011", "Sat": "0011", "Sun / PH": "0011" }
+      }
+    }
+  ],
+  "Geylang Bahru": [
+    {
+      "direction": "Bukit Panjang",
+      "firstTrain": {
+        "Bukit Panjang": {
+          "Mon - Fri": "0600",
+          "Sat": "0600",
+          "Sun / PH": "0618"
+        }
+      },
+      "lastTrain": {
+        "Bukit Panjang": {
+          "Mon - Fri": "0004",
+          "Sat": "0004",
+          "Sun / PH": "0004"
+        }
+      }
+    },
+    {
+      "direction": "Expo",
+      "firstTrain": {
+        "Expo": { "Mon - Fri": "0559", "Sat": "0559", "Sun / PH": "0619" }
+      },
+      "lastTrain": {
+        "Expo": { "Mon - Fri": "0018", "Sat": "0018", "Sun / PH": "0018" }
+      }
+    }
+  ],
+  "Gul Circle": [
+    {
+      "direction": "Pasir Ris",
+      "firstTrain": {
+        "Pasir Ris": { "Mon - Fri": "0526", "Sat": "0526", "Sun / PH": "0556" }
+      },
+      "lastTrain": {
+        "Pasir Ris": { "Mon - Fri": "2327", "Sat": "2327", "Sun / PH": "2327" }
+      }
+    },
+    {
+      "direction": "Tuas Link",
+      "firstTrain": {
+        "Tuas Link": { "Mon - Fri": "0530", "Sat": "0530", "Sun / PH": "0600" }
+      },
+      "lastTrain": {
+        "Tuas Link": { "Mon - Fri": "0041", "Sat": "0041", "Sun / PH": "0041" }
+      }
+    }
+  ],
+  "Harbourfront": [
+    {
+      "direction": "Punggol",
+      "firstTrain": {
+        "Punggol": { "Mon - Fri": "0550", "Sat": "0600", "Sun / PH": "0620" }
+      },
+      "lastTrain": {
+        "Punggol": { "Mon - Fri": "2355", "Sat": "2355", "Sun / PH": "2355" }
+      }
+    },
+    {
+      "direction": "Dhoby Ghaut",
+      "firstTrain": {
+        "Dhoby Ghaut": {
+          "Mon - Fri": "0530",
+          "Sat": "0530",
+          "Sun / PH": "0551"
+        }
+      },
+      "lastTrain": {
+        "Dhoby Ghaut": {
+          "Mon - Fri": "2303",
+          "Sat": "2303",
+          "Sun / PH": "2303"
+        },
+        "Mountbatten": {
+          "Mon - Fri": "2340",
+          "Sat": "2340",
+          "Sun / PH": "2340"
+        },
+        "Bartley": { "Mon - Fri": "0004", "Sat": "0004", "Sun / PH": "0004" }
+      }
+    }
+  ],
+  "Haw Par Villa": [
+    {
+      "direction": "Dhoby Ghaut",
+      "firstTrain": {
+        "Dhoby Ghaut": {
+          "Mon - Fri": "0532",
+          "Sat": "0532",
+          "Sun / PH": "0553"
+        }
+      },
+      "lastTrain": {
+        "Dhoby Ghaut": {
+          "Mon - Fri": "2312",
+          "Sat": "2312",
+          "Sun / PH": "2312"
+        },
+        "Mountbatten": {
+          "Mon - Fri": "2349",
+          "Sat": "2349",
+          "Sun / PH": "2349"
+        },
+        "Bartley": { "Mon - Fri": "0013", "Sat": "0013", "Sun / PH": "0013" }
+      }
+    },
+    {
+      "direction": "HarbourFront",
+      "firstTrain": {
+        "HarbourFront": {
+          "Mon - Fri": "0538",
+          "Sat": "0538",
+          "Sun / PH": "0602"
+        }
+      },
+      "lastTrain": {
+        "HarbourFront": {
+          "Mon - Fri": "2340",
+          "Sat": "2340",
+          "Sun / PH": "2340"
+        },
+        "Pasir Panjang": {
+          "Mon - Fri": "0010",
+          "Sat": "0010",
+          "Sun / PH": "0010"
+        }
+      }
+    }
+  ],
+  "Hillview": [
+    {
+      "direction": "Bukit Panjang",
+      "firstTrain": {
+        "Bukit Panjang": {
+          "Mon - Fri": "0612",
+          "Sat": "0612",
+          "Sun / PH": "0633"
+        }
+      },
+      "lastTrain": {
+        "Bukit Panjang": {
+          "Mon - Fri": "0044",
+          "Sat": "0044",
+          "Sun / PH": "0044"
+        }
+      }
+    },
+    {
+      "direction": "Expo",
+      "firstTrain": {
+        "Expo": { "Mon - Fri": "0534", "Sat": "0534", "Sun / PH": "0554" }
+      },
+      "lastTrain": {
+        "Expo": { "Mon - Fri": "2339", "Sat": "2339", "Sun / PH": "2339" }
+      }
+    }
+  ],
+  "Holland Village": [
+    {
+      "direction": "Dhoby Ghaut",
+      "firstTrain": {
+        "Dhoby Ghaut": {
+          "Mon - Fri": "0540",
+          "Sat": "0540",
+          "Sun / PH": "0601"
+        }
+      },
+      "lastTrain": {
+        "Dhoby Ghaut": {
+          "Mon - Fri": "2321",
+          "Sat": "2321",
+          "Sun / PH": "2321"
+        },
+        "Mountbatten": {
+          "Mon - Fri": "2358",
+          "Sat": "2358",
+          "Sun / PH": "2358"
+        },
+        "Bartley": { "Mon - Fri": "0021", "Sat": "0021", "Sun / PH": "0021" }
+      }
+    },
+    {
+      "direction": "HarbourFront",
+      "firstTrain": {
+        "HarbourFront": {
+          "Mon - Fri": "0537",
+          "Sat": "0537",
+          "Sun / PH": "0601"
+        }
+      },
+      "lastTrain": {
+        "HarbourFront": {
+          "Mon - Fri": "2331",
+          "Sat": "2331",
+          "Sun / PH": "2331"
+        },
+        "Pasir Panjang": {
+          "Mon - Fri": "0002",
+          "Sat": "0002",
+          "Sun / PH": "0002"
+        },
+        "one-north": { "Mon - Fri": "0018", "Sat": "0018", "Sun / PH": "0018" }
+      }
+    }
+  ],
+  "Hougang": [
+    {
+      "direction": "HarbourFront",
+      "firstTrain": {
+        "HarbourFront": {
+          "Mon - Fri": "0548",
+          "Sat": "0549",
+          "Sun / PH": "0609"
+        }
+      },
+      "lastTrain": {
+        "HarbourFront": {
+          "Mon - Fri": "2334",
+          "Sat": "2334",
+          "Sun / PH": "2334"
+        }
+      }
+    },
+    {
+      "direction": "Punggol",
+      "firstTrain": {
+        "Punggol": { "Mon - Fri": "0611", "Sat": "0626", "Sun / PH": "0646" }
+      },
+      "lastTrain": {
+        "Punggol": { "Mon - Fri": "0022", "Sat": "0021", "Sun / PH": "0021" }
+      }
+    }
+  ],
+  "Jalan Besar": [
+    {
+      "direction": "Bukit Panjang",
+      "firstTrain": {
+        "Bukit Panjang": {
+          "Mon - Fri": "0604",
+          "Sat": "0604",
+          "Sun / PH": "0622"
+        }
+      },
+      "lastTrain": {
+        "Bukit Panjang": {
+          "Mon - Fri": "0008",
+          "Sat": "0008",
+          "Sun / PH": "0008"
+        }
+      }
+    },
+    {
+      "direction": "Expo",
+      "firstTrain": {
+        "Expo": { "Mon - Fri": "0613", "Sat": "0613", "Sun / PH": "0633" }
+      },
+      "lastTrain": {
+        "Expo": { "Mon - Fri": "0014", "Sat": "0014", "Sun / PH": "0014" }
+      }
+    }
+  ],
+  "Joo Koon": [
+    {
+      "direction": "Pasir Ris",
+      "firstTrain": {
+        "Pasir Ris": { "Mon - Fri": "0531", "Sat": "0531", "Sun / PH": "0601" }
+      },
+      "lastTrain": {
+        "Pasir Ris": { "Mon - Fri": "2332", "Sat": "2332", "Sun / PH": "2332" }
+      }
+    },
+    {
+      "direction": "Tuas Link",
+      "firstTrain": {
+        "Tuas Link": { "Mon - Fri": "0527", "Sat": "0527", "Sun / PH": "0557" }
+      },
+      "lastTrain": {
+        "Tuas Link": { "Mon - Fri": "0038", "Sat": "0038", "Sun / PH": "0038" }
+      }
+    }
+  ],
+  "Jurong East": [
+    {
+      "direction": "Pasir Ris",
+      "firstTrain": {
+        "Pasir Ris": { "Mon - Fri": "0543", "Sat": "0543", "Sun / PH": "0613" }
+      },
+      "lastTrain": {
+        "Pasir Ris": { "Mon - Fri": "2345", "Sat": "2345", "Sun / PH": "2345" }
+      }
+    },
+    {
+      "direction": "Tuas Link",
+      "firstTrain": {
+        "Tuas Link": { "Mon - Fri": "0514", "Sat": "0514", "Sun / PH": "0544" }
+      },
+      "lastTrain": {
+        "Tuas Link": { "Mon - Fri": "0025", "Sat": "0025", "Sun / PH": "0025" }
+      }
+    },
+    {
+      "direction": "Marina South Pier",
+      "firstTrain": {
+        "Marina South Pier": {
+          "Mon - Fri": "0516",
+          "Sat": "0516",
+          "Sun / PH": "0535"
+        }
+      },
+      "lastTrain": {
+        "Marina South Pier": {
+          "Mon - Fri": "2246",
+          "Sat": "2246",
+          "Sun / PH": "2246"
+        },
+        "Marina Bay": {
+          "Mon - Fri": "2253",
+          "Sat": "2253",
+          "Sun / PH": "2253"
+        },
+        "Toa Payoh": { "Mon - Fri": "2328", "Sat": "2328", "Sun / PH": "2328" },
+        "Ang Mo Kio": { "Mon - Fri": "0017", "Sat": "0017", "Sun / PH": "0017" }
+      }
+    }
+  ],
+  "Kaki Bukit": [
+    {
+      "direction": "Bukit Panjang",
+      "firstTrain": {
+        "Bukit Panjang": {
+          "Mon - Fri": "0552",
+          "Sat": "0552",
+          "Sun / PH": "0610"
+        }
+      },
+      "lastTrain": {
+        "Bukit Panjang": {
+          "Mon - Fri": "2356",
+          "Sat": "2356",
+          "Sun / PH": "2356"
+        }
+      }
+    },
+    {
+      "direction": "Expo",
+      "firstTrain": {
+        "Expo": { "Mon - Fri": "0607", "Sat": "0607", "Sun / PH": "0627" }
+      },
+      "lastTrain": {
+        "Expo": { "Mon - Fri": "0026", "Sat": "0026", "Sun / PH": "0026" }
+      }
+    }
+  ],
+  "Kallang": [
+    {
+      "direction": "Pasir Ris",
+      "firstTrain": {
+        "Pasir Ris": { "Mon - Fri": "0607", "Sat": "0607", "Sun / PH": "0635" }
+      },
+      "lastTrain": {
+        "Pasir Ris": { "Mon - Fri": "0018", "Sat": "0018", "Sun / PH": "0018" }
+      }
+    },
+    {
+      "direction": "Tuas Link",
+      "firstTrain": {
+        "Tuas Link": { "Mon - Fri": "0550", "Sat": "0550", "Sun / PH": "0616" }
+      },
+      "lastTrain": {
+        "Tuas Link": { "Mon - Fri": "2345", "Sat": "2345", "Sun / PH": "2345" }
+      }
+    }
+  ],
+  "Kembangan": [
+    {
+      "direction": "Pasir Ris",
+      "firstTrain": {
+        "Pasir Ris": { "Mon - Fri": "0615", "Sat": "0615", "Sun / PH": "0643" }
+      },
+      "lastTrain": {
+        "Pasir Ris": { "Mon - Fri": "0026", "Sat": "0026", "Sun / PH": "0026" }
+      }
+    },
+    {
+      "direction": "Tuas Link",
+      "firstTrain": {
+        "Tuas Link": { "Mon - Fri": "0542", "Sat": "0542", "Sun / PH": "0608" }
+      },
+      "lastTrain": {
+        "Tuas Link": { "Mon - Fri": "2337", "Sat": "2337", "Sun / PH": "2337" }
+      }
+    }
+  ],
+  "Kent Ridge": [
+    {
+      "direction": "Dhoby Ghaut",
+      "firstTrain": {
+        "Dhoby Ghaut": {
+          "Mon - Fri": "0535",
+          "Sat": "0535",
+          "Sun / PH": "0556"
+        }
+      },
+      "lastTrain": {
+        "Dhoby Ghaut": {
+          "Mon - Fri": "2315",
+          "Sat": "2315",
+          "Sun / PH": "2315"
+        },
+        "Mountbatten": {
+          "Mon - Fri": "2352",
+          "Sat": "2352",
+          "Sun / PH": "2352"
+        },
+        "Bartley": { "Mon - Fri": "0015", "Sat": "0015", "Sun / PH": "0015" }
+      }
+    },
+    {
+      "direction": "HarbourFront",
+      "firstTrain": {
+        "HarbourFront": {
+          "Mon - Fri": "0535",
+          "Sat": "0535",
+          "Sun / PH": "0600"
+        }
+      },
+      "lastTrain": {
+        "HarbourFront": {
+          "Mon - Fri": "2337",
+          "Sat": "2337",
+          "Sun / PH": "2337"
+        },
+        "Pasir Panjang": {
+          "Mon - Fri": "0008",
+          "Sat": "0008",
+          "Sun / PH": "0008"
+        }
+      }
+    }
+  ],
+  "Khatib": [
+    {
+      "direction": "Jurong East",
+      "firstTrain": {
+        "Yishun": { "Mon - Fri": "0516", "Sat": "0516" },
+        "Jurong East": {
+          "Mon - Fri": "0525",
+          "Sat": "0524",
+          "Sun / PH": "0548"
+        }
+      },
+      "lastTrain": {
+        "Jurong East": {
+          "Mon - Fri": "0023",
+          "Sat": "0023",
+          "Sun / PH": "0023"
+        },
+        "Kranji": { "Mon - Fri": "0039", "Sat": "0039", "Sun / PH": "0039" }
+      }
+    },
+    {
+      "direction": "Marina South Pier",
+      "firstTrain": {
+        "Marina South Pier": {
+          "Mon - Fri": "0526",
+          "Sat": "0526",
+          "Sun / PH": "0559"
+        }
+      },
+      "lastTrain": {
+        "Marina South Pier": {
+          "Mon - Fri": "2325",
+          "Sat": "2325",
+          "Sun / PH": "2325"
+        },
+        "Marina Bay": {
+          "Mon - Fri": "2328",
+          "Sat": "2328",
+          "Sun / PH": "2328"
+        },
+        "Toa Payoh": { "Mon - Fri": "0003", "Sat": "0003", "Sun / PH": "0003" },
+        "Ang Mo Kio": { "Mon - Fri": "0053", "Sat": "0053", "Sun / PH": "0053" }
+      }
+    }
+  ],
+  "King Albert Park": [
+    {
+      "direction": "Bukit Panjang",
+      "firstTrain": {
+        "Bukit Panjang": {
+          "Mon - Fri": "0607",
+          "Sat": "0607",
+          "Sun / PH": "0627"
+        }
+      },
+      "lastTrain": {
+        "Bukit Panjang": {
+          "Mon - Fri": "0038",
+          "Sat": "0038",
+          "Sun / PH": "0038"
+        }
+      }
+    },
+    {
+      "direction": "Expo",
+      "firstTrain": {
+        "Expo": { "Mon - Fri": "0539", "Sat": "0539", "Sun / PH": "0559" }
+      },
+      "lastTrain": {
+        "Expo": { "Mon - Fri": "2344", "Sat": "2344", "Sun / PH": "2344" }
+      }
+    }
+  ],
+  "Kovan": [
+    {
+      "direction": "HarbourFront",
+      "firstTrain": {
+        "HarbourFront": {
+          "Mon - Fri": "0551",
+          "Sat": "0551",
+          "Sun / PH": "0612"
+        }
+      },
+      "lastTrain": {
+        "HarbourFront": {
+          "Mon - Fri": "2337",
+          "Sat": "2337",
+          "Sun / PH": "2337"
+        }
+      }
+    },
+    {
+      "direction": "Punggol",
+      "firstTrain": {
+        "Punggol": { "Mon - Fri": "0609", "Sat": "0623", "Sun / PH": "0643" }
+      },
+      "lastTrain": {
+        "Punggol": { "Mon - Fri": "0019", "Sat": "0018", "Sun / PH": "0018" }
+      }
+    }
+  ],
+  "Kranji": [
+    {
+      "direction": "Jurong East",
+      "firstTrain": {
+        "Jurong East": {
+          "Mon - Fri": "0543",
+          "Sat": "0543",
+          "Sun / PH": "0607"
+        }
+      },
+      "lastTrain": {
+        "Jurong East": {
+          "Mon - Fri": "0041",
+          "Sat": "0041",
+          "Sun / PH": "0041"
+        }
+      }
+    },
+    {
+      "direction": "Marina South Pier",
+      "firstTrain": {
+        "Marina South Pier": {
+          "Mon - Fri": "0522",
+          "Sat": "0522",
+          "Sun / PH": "0538"
+        }
+      },
+      "lastTrain": {
+        "Marina South Pier": {
+          "Mon - Fri": "2306",
+          "Sat": "2306",
+          "Sun / PH": "2306"
+        },
+        "Marina Bay": {
+          "Mon - Fri": "2309",
+          "Sat": "2309",
+          "Sun / PH": "2309"
+        },
+        "Toa Payoh": { "Mon - Fri": "2345", "Sat": "2345", "Sun / PH": "2345" },
+        "Ang Mo Kio": { "Mon - Fri": "0034", "Sat": "0034", "Sun / PH": "0034" }
+      }
+    }
+  ],
+  "Labrador Park": [
+    {
+      "direction": "Dhoby Ghaut",
+      "firstTrain": {
+        "Dhoby Ghaut": {
+          "Mon - Fri": "0534",
+          "Sat": "0534",
+          "Sun / PH": "0556"
+        }
+      },
+      "lastTrain": {
+        "Dhoby Ghaut": {
+          "Mon - Fri": "2308",
+          "Sat": "2308",
+          "Sun / PH": "2308"
+        },
+        "Mountbatten": {
+          "Mon - Fri": "2345",
+          "Sat": "2345",
+          "Sun / PH": "2345"
+        },
+        "Bartley": { "Mon - Fri": "0008", "Sat": "0008", "Sun / PH": "0008" }
+      }
+    },
+    {
+      "direction": "HarbourFront",
+      "firstTrain": {
+        "HarbourFront": {
+          "Mon - Fri": "0542",
+          "Sat": "0542",
+          "Sun / PH": "0607"
+        }
+      },
+      "lastTrain": {
+        "HarbourFront": {
+          "Mon - Fri": "2344",
+          "Sat": "2344",
+          "Sun / PH": "2344"
+        }
+      }
+    }
+  ],
+  "Lakeside": [
+    {
+      "direction": "Pasir Ris",
+      "firstTrain": {
+        "Pasir Ris": { "Mon - Fri": "0538", "Sat": "0538", "Sun / PH": "0608" }
+      },
+      "lastTrain": {
+        "Pasir Ris": { "Mon - Fri": "2340", "Sat": "2340", "Sun / PH": "2340" }
+      }
+    },
+    {
+      "direction": "Tuas Link",
+      "firstTrain": {
+        "Tuas Link": { "Mon - Fri": "0519", "Sat": "0519", "Sun / PH": "0549" }
+      },
+      "lastTrain": {
+        "Tuas Link": { "Mon - Fri": "0029", "Sat": "0029", "Sun / PH": "0029" }
+      }
+    }
+  ],
+  "Lavender": [
+    {
+      "direction": "Pasir Ris",
+      "firstTrain": {
+        "Pasir Ris": { "Mon - Fri": "0605", "Sat": "0605", "Sun / PH": "0633" }
+      },
+      "lastTrain": {
+        "Pasir Ris": { "Mon - Fri": "0016", "Sat": "0016", "Sun / PH": "0016" }
+      }
+    },
+    {
+      "direction": "Tuas Link",
+      "firstTrain": {
+        "Tuas Link": { "Mon - Fri": "0552", "Sat": "0552", "Sun / PH": "0618" }
+      },
+      "lastTrain": {
+        "Tuas Link": { "Mon - Fri": "2347", "Sat": "2347", "Sun / PH": "2347" }
+      }
+    }
+  ],
+  "Lentor": [
+    {
+      "direction": "Woodlands North",
+      "firstTrain": {
+        "Woodlands North": {
+          "Mon - Fri": "0602",
+          "Sat": "0602",
+          "Sun / PH": "0602"
+        }
+      },
+      "lastTrain": {
+        "Woodlands North": {
+          "Mon - Fri": "2344",
+          "Sat": "2344",
+          "Sun / PH": "2344"
+        }
+      }
+    },
+    {
+      "direction": "Springleaf",
+      "firstTrain": {},
+      "lastTrain": {
+        "Springleaf": { "Mon - Fri": "2353", "Sat": "2353", "Sun / PH": "2353" }
+      }
+    },
+    {
+      "direction": "Caldecott",
+      "firstTrain": {
+        "Caldecott": { "Mon - Fri": "0549", "Sat": "0549", "Sun / PH": "0549" }
+      },
+      "lastTrain": {
+        "Caldecott": { "Mon - Fri": "2340", "Sat": "2340", "Sun / PH": "2340" }
+      }
+    }
+  ],
+  "Little India": [
+    {
+      "direction": "HarbourFront",
+      "firstTrain": {
+        "HarbourFront": {
+          "Mon - Fri": "0604",
+          "Sat": "0603",
+          "Sun / PH": "0624"
+        }
+      },
+      "lastTrain": {
+        "HarbourFront": {
+          "Mon - Fri": "2350",
+          "Sat": "2349",
+          "Sun / PH": "2349"
+        }
+      }
+    },
+    {
+      "direction": "Punggol",
+      "firstTrain": {
+        "Punggol": { "Mon - Fri": "0556", "Sat": "0611", "Sun / PH": "0631" }
+      },
+      "lastTrain": {
+        "Punggol": { "Mon - Fri": "0006", "Sat": "0006", "Sun / PH": "0006" }
+      }
+    },
+    {
+      "direction": "Bukit Panjang",
+      "firstTrain": {
+        "Bukit Panjang": {
+          "Mon - Fri": "0607",
+          "Sat": "0607",
+          "Sun / PH": "0630"
+        }
+      },
+      "lastTrain": {
+        "Bukit Panjang": {
+          "Mon - Fri": "0024",
+          "Sat": "0024",
+          "Sun / PH": "0024"
+        }
+      }
+    },
+    {
+      "direction": "Expo",
+      "firstTrain": {
+        "Expo": { "Mon - Fri": "0553", "Sat": "0553", "Sun / PH": "0613" }
+      },
+      "lastTrain": {
+        "Expo": { "Mon - Fri": "2359", "Sat": "2359", "Sun / PH": "2359" }
+      }
+    }
+  ],
+  "Lorong Chuan": [
+    {
+      "direction": "Dhoby Ghaut",
+      "firstTrain": {
+        "Dhoby Ghaut": {
+          "Mon - Fri": "0542",
+          "Sat": "0542",
+          "Sun / PH": "0609"
+        }
+      },
+      "lastTrain": {
+        "Dhoby Ghaut": {
+          "Mon - Fri": "2338",
+          "Sat": "2338",
+          "Sun / PH": "2338"
+        },
+        "Mountbatten": {
+          "Mon - Fri": "0014",
+          "Sat": "0014",
+          "Sun / PH": "0014"
+        },
+        "Bartley": { "Mon - Fri": "0038", "Sat": "0038", "Sun / PH": "0038" }
+      }
+    },
+    {
+      "direction": "HarbourFront",
+      "firstTrain": {
+        "HarbourFront": {
+          "Mon - Fri": "0520",
+          "Sat": "0520",
+          "Sun / PH": "0544"
+        }
+      },
+      "lastTrain": {
+        "HarbourFront": {
+          "Mon - Fri": "2315",
+          "Sat": "2315",
+          "Sun / PH": "2315"
+        },
+        "Pasir Panjang": {
+          "Mon - Fri": "2345",
+          "Sat": "2345",
+          "Sun / PH": "2345"
+        },
+        "one-north": { "Mon - Fri": "0001", "Sat": "0001", "Sun / PH": "0001" },
+        "Caldecott": { "Mon - Fri": "0029", "Sat": "0029", "Sun / PH": "0029" }
+      }
+    }
+  ],
+  "Macpherson": [
+    {
+      "direction": "Dhoby Ghaut",
+      "firstTrain": {
+        "Dhoby Ghaut": {
+          "Mon - Fri": "0537",
+          "Sat": "0537",
+          "Sun / PH": "0604"
+        }
+      },
+      "lastTrain": {
+        "Dhoby Ghaut": {
+          "Mon - Fri": "2346",
+          "Sat": "2346",
+          "Sun / PH": "2346"
+        },
+        "Mountbatten": {
+          "Mon - Fri": "0023",
+          "Sat": "0023",
+          "Sun / PH": "0023"
+        }
+      }
+    },
+    {
+      "direction": "HarbourFront",
+      "firstTrain": {
+        "HarbourFront": {
+          "Mon - Fri": "0542",
+          "Sat": "0542",
+          "Sun / PH": "0609"
+        }
+      },
+      "lastTrain": {
+        "HarbourFront": {
+          "Mon - Fri": "2306",
+          "Sat": "2306",
+          "Sun / PH": "2306"
+        },
+        "Pasir Panjang": {
+          "Mon - Fri": "2336",
+          "Sat": "2336",
+          "Sun / PH": "2336"
+        },
+        "one-north": { "Mon - Fri": "2352", "Sat": "2352", "Sun / PH": "2352" },
+        "Caldecott": { "Mon - Fri": "0020", "Sat": "0020", "Sun / PH": "0020" },
+        "Tai Seng": { "Mon - Fri": "0028", "Sat": "0028", "Sun / PH": "0028" }
+      }
+    },
+    {
+      "direction": "Bukit Panjang",
+      "firstTrain": {
+        "Bukit Panjang": {
+          "Mon - Fri": "0556",
+          "Sat": "0556",
+          "Sun / PH": "0614"
+        }
+      },
+      "lastTrain": {
+        "Bukit Panjang": {
+          "Mon - Fri": "0000",
+          "Sat": "0000",
+          "Sun / PH": "0000"
+        }
+      }
+    },
+    {
+      "direction": "Expo",
+      "firstTrain": {
+        "Expo": { "Mon - Fri": "0603", "Sat": "0603", "Sun / PH": "0623" }
+      },
+      "lastTrain": {
+        "Expo": { "Mon - Fri": "0023", "Sat": "0023", "Sun / PH": "0023" }
+      }
+    }
+  ],
+  "Marina Bay": [
+    {
+      "direction": "Jurong East",
+      "firstTrain": {
+        "Jurong East": {
+          "Mon - Fri": "0601",
+          "Sat": "0601",
+          "Sun / PH": "0626"
+        }
+      },
+      "lastTrain": {
+        "Jurong East": {
+          "Mon - Fri": "2350",
+          "Sat": "2350",
+          "Sun / PH": "2350"
+        },
+        "Kranji": { "Mon - Fri": "0007", "Sat": "0007", "Sun / PH": "0007" }
+      }
+    },
+    {
+      "direction": "Marina South Pier",
+      "firstTrain": {
+        "Marina South Pier": {
+          "Mon - Fri": "0605",
+          "Sat": "0605",
+          "Sun / PH": "0629"
+        }
+      },
+      "lastTrain": {
+        "Marina South Pier": {
+          "Mon - Fri": "2356",
+          "Sat": "2356",
+          "Sun / PH": "2356"
+        }
+      }
+    },
+    {
+      "direction": "Stadium",
+      "firstTrain": {
+        "Stadium": { "Mon - Fri": "0559", "Sat": "0559", "Sun / PH": "0624" }
+      },
+      "lastTrain": {
+        "Stadium": { "Mon - Fri": "2355", "Sat": "2355", "Sun / PH": "2355" }
+      }
+    }
+  ],
+  "Marina South Pier": [
+    {
+      "direction": "Jurong East",
+      "firstTrain": {
+        "Jurong East": {
+          "Mon - Fri": "0610",
+          "Sat": "0610",
+          "Sun / PH": "0638"
+        }
+      },
+      "lastTrain": {
+        "Jurong East": {
+          "Mon - Fri": "2348",
+          "Sat": "2348",
+          "Sun / PH": "2348"
+        },
+        "Kranji": { "Mon - Fri": "0004", "Sat": "0004", "Sun / PH": "0004" }
+      }
+    }
+  ],
+  "Marsiling": [
+    {
+      "direction": "Jurong East",
+      "firstTrain": {
+        "Jurong East": {
+          "Mon - Fri": "0541",
+          "Sat": "0540",
+          "Sun / PH": "0604"
+        }
+      },
+      "lastTrain": {
+        "Jurong East": {
+          "Mon - Fri": "0038",
+          "Sat": "0038",
+          "Sun / PH": "0038"
+        },
+        "Kranji": { "Mon - Fri": "0055", "Sat": "0055", "Sun / PH": "0055" }
+      }
+    },
+    {
+      "direction": "Marina South Pier",
+      "firstTrain": {
+        "Marina South Pier": {
+          "Mon - Fri": "0524",
+          "Sat": "0524",
+          "Sun / PH": "0541"
+        }
+      },
+      "lastTrain": {
+        "Marina South Pier": {
+          "Mon - Fri": "2309",
+          "Sat": "2309",
+          "Sun / PH": "2309"
+        },
+        "Marina Bay": {
+          "Mon - Fri": "2312",
+          "Sat": "2312",
+          "Sun / PH": "2312"
+        },
+        "Toa Payoh": { "Mon - Fri": "2348", "Sat": "2348", "Sun / PH": "2348" },
+        "Ang Mo Kio": { "Mon - Fri": "0037", "Sat": "0037", "Sun / PH": "0037" }
+      }
+    }
+  ],
+  "Marymount": [
+    {
+      "direction": "Dhoby Ghaut",
+      "firstTrain": {
+        "Dhoby Ghaut": {
+          "Mon - Fri": "0537",
+          "Sat": "0537",
+          "Sun / PH": "0604"
+        }
+      },
+      "lastTrain": {
+        "Dhoby Ghaut": {
+          "Mon - Fri": "2332",
+          "Sat": "2332",
+          "Sun / PH": "2332"
+        },
+        "Mountbatten": {
+          "Mon - Fri": "0009",
+          "Sat": "0009",
+          "Sun / PH": "0009"
+        },
+        "Bartley": { "Mon - Fri": "0033", "Sat": "0033", "Sun / PH": "0033" }
+      }
+    },
+    {
+      "direction": "HarbourFront",
+      "firstTrain": {
+        "HarbourFront": {
+          "Mon - Fri": "0525",
+          "Sat": "0525",
+          "Sun / PH": "0550"
+        }
+      },
+      "lastTrain": {
+        "HarbourFront": {
+          "Mon - Fri": "2320",
+          "Sat": "2320",
+          "Sun / PH": "2320"
+        },
+        "Pasir Panjang": {
+          "Mon - Fri": "2350",
+          "Sat": "2350",
+          "Sun / PH": "2350"
+        },
+        "one-north": { "Mon - Fri": "0006", "Sat": "0006", "Sun / PH": "0006" },
+        "Caldecott": { "Mon - Fri": "0034", "Sat": "0034", "Sun / PH": "0034" }
+      }
+    }
+  ],
+  "Mattar": [
+    {
+      "direction": "Bukit Panjang",
+      "firstTrain": {
+        "Bukit Panjang": {
+          "Mon - Fri": "0558",
+          "Sat": "0558",
+          "Sun / PH": "0616"
+        }
+      },
+      "lastTrain": {
+        "Bukit Panjang": {
+          "Mon - Fri": "0002",
+          "Sat": "0002",
+          "Sun / PH": "0002"
+        }
+      }
+    },
+    {
+      "direction": "Expo",
+      "firstTrain": {
+        "Expo": { "Mon - Fri": "0601", "Sat": "0601", "Sun / PH": "0621" }
+      },
+      "lastTrain": {
+        "Expo": { "Mon - Fri": "0021", "Sat": "0021", "Sun / PH": "0021" }
+      }
+    }
+  ],
+  "Mayflower": [
+    {
+      "direction": "Woodlands North",
+      "firstTrain": {
+        "Woodlands North": {
+          "Mon - Fri": "0600",
+          "Sat": "0600",
+          "Sun / PH": "0600"
+        }
+      },
+      "lastTrain": {
+        "Woodlands North": {
+          "Mon - Fri": "2342",
+          "Sat": "2342",
+          "Sun / PH": "2342"
+        }
+      }
+    },
+    {
+      "direction": "Springleaf",
+      "firstTrain": {},
+      "lastTrain": {
+        "Springleaf": { "Mon - Fri": "2350", "Sat": "2350", "Sun / PH": "2350" }
+      }
+    },
+    {
+      "direction": "Caldecott",
+      "firstTrain": {
+        "Caldecott": { "Mon - Fri": "0552", "Sat": "0552", "Sun / PH": "0552" }
+      },
+      "lastTrain": {
+        "Caldecott": { "Mon - Fri": "2343", "Sat": "2343", "Sun / PH": "2343" }
+      }
+    }
+  ],
+  "Mountbatten": [
+    {
+      "direction": "Dhoby Ghaut",
+      "firstTrain": {
+        "Dhoby Ghaut": {
+          "Mon - Fri": "0544",
+          "Sat": "0544",
+          "Sun / PH": "0611"
+        }
+      },
+      "lastTrain": {
+        "Dhoby Ghaut": {
+          "Mon - Fri": "2353",
+          "Sat": "2353",
+          "Sun / PH": "2353"
+        }
+      }
+    },
+    {
+      "direction": "HarbourFront",
+      "firstTrain": {
+        "HarbourFront": {
+          "Mon - Fri": "0535",
+          "Sat": "0535",
+          "Sun / PH": "0603"
+        }
+      },
+      "lastTrain": {
+        "HarbourFront": {
+          "Mon - Fri": "2300",
+          "Sat": "2300",
+          "Sun / PH": "2300"
+        },
+        "Pasir Panjang": {
+          "Mon - Fri": "2330",
+          "Sat": "2330",
+          "Sun / PH": "2330"
+        },
+        "one-north": { "Mon - Fri": "2346", "Sat": "2346", "Sun / PH": "2346" },
+        "Caldecott": { "Mon - Fri": "0014", "Sat": "0014", "Sun / PH": "0014" },
+        "Tai Seng": { "Mon - Fri": "0022", "Sat": "0022", "Sun / PH": "0022" }
+      }
+    }
+  ],
+  "Newton": [
+    {
+      "direction": "Jurong East",
+      "firstTrain": {
+        "Jurong East": {
+          "Mon - Fri": "0559",
+          "Sat": "0613",
+          "Sun / PH": "0620"
+        }
+      },
+      "lastTrain": {
+        "Jurong East": {
+          "Mon - Fri": "0003",
+          "Sat": "0003",
+          "Sun / PH": "0003"
+        },
+        "Kranji": { "Mon - Fri": "0020", "Sat": "0020", "Sun / PH": "0020" }
+      }
+    },
+    {
+      "direction": "Marina South Pier",
+      "firstTrain": {
+        "Marina South Pier": {
+          "Mon - Fri": "0546",
+          "Sat": "0546",
+          "Sun / PH": "0611"
+        }
+      },
+      "lastTrain": {
+        "Marina South Pier": {
+          "Mon - Fri": "2345",
+          "Sat": "2345",
+          "Sun / PH": "2345"
+        },
+        "Marina Bay": { "Mon - Fri": "2348", "Sat": "2348", "Sun / PH": "2348" }
+      }
+    },
+    {
+      "direction": "Bukit Panjang",
+      "firstTrain": {
+        "Bukit Panjang": {
+          "Mon - Fri": "0555",
+          "Sat": "0555",
+          "Sun / PH": "0616"
+        }
+      },
+      "lastTrain": {
+        "Bukit Panjang": {
+          "Mon - Fri": "0027",
+          "Sat": "0027",
+          "Sun / PH": "0027"
+        }
+      }
+    },
+    {
+      "direction": "Expo",
+      "firstTrain": {
+        "Expo": { "Mon - Fri": "0551", "Sat": "0551", "Sun / PH": "0611" }
+      },
+      "lastTrain": {
+        "Expo": { "Mon - Fri": "2356", "Sat": "2356", "Sun / PH": "2356" }
+      }
+    }
+  ],
+  "Nicoll Highway": [
+    {
+      "direction": "Dhoby Ghaut",
+      "firstTrain": {
+        "Dhoby Ghaut": {
+          "Mon - Fri": "0548",
+          "Sat": "0548",
+          "Sun / PH": "0615"
+        }
+      },
+      "lastTrain": {
+        "Dhoby Ghaut": {
+          "Mon - Fri": "2357",
+          "Sat": "2357",
+          "Sun / PH": "2357"
+        }
+      }
+    },
+    {
+      "direction": "HarbourFront",
+      "firstTrain": {
+        "HarbourFront": {
+          "Mon - Fri": "0545",
+          "Sat": "0545",
+          "Sun / PH": "0612"
+        },
+        "Stadium": { "Mon - Fri": "0607", "Sat": "0607", "Sun / PH": "0630" }
+      },
+      "lastTrain": {
+        "HarbourFront": {
+          "Mon - Fri": "2256",
+          "Sat": "2256",
+          "Sun / PH": "2256"
+        },
+        "Pasir Panjang": {
+          "Mon - Fri": "2326",
+          "Sat": "2326",
+          "Sun / PH": "2326"
+        },
+        "one-north": { "Mon - Fri": "2342", "Sat": "2342", "Sun / PH": "2342" },
+        "Stadium": { "Mon - Fri": "0001", "Sat": "0001", "Sun / PH": "0001" },
+        "Caldecott": { "Mon - Fri": "0010", "Sat": "0010", "Sun / PH": "0010" },
+        "Tai Seng": { "Mon - Fri": "0017", "Sat": "0017", "Sun / PH": "0017" }
+      }
+    }
+  ],
+  "Novena": [
+    {
+      "direction": "Jurong East",
+      "firstTrain": {
+        "Jurong East": {
+          "Mon - Fri": "0601",
+          "Sat": "0615",
+          "Sun / PH": "0622"
+        }
+      },
+      "lastTrain": {
+        "Jurong East": {
+          "Mon - Fri": "0005",
+          "Sat": "0005",
+          "Sun / PH": "0005"
+        },
+        "Kranji": { "Mon - Fri": "0022", "Sat": "0022", "Sun / PH": "0022" }
+      }
+    },
+    {
+      "direction": "Marina South Pier",
+      "firstTrain": {
+        "Marina South Pier": {
+          "Mon - Fri": "0544",
+          "Sat": "0544",
+          "Sun / PH": "0609"
+        }
+      },
+      "lastTrain": {
+        "Marina South Pier": {
+          "Mon - Fri": "2343",
+          "Sat": "2343",
+          "Sun / PH": "2343"
+        },
+        "Marina Bay": { "Mon - Fri": "2346", "Sat": "2346", "Sun / PH": "2346" }
+      }
+    }
+  ],
+  "one-north": [
+    {
+      "direction": "Dhoby Ghaut",
+      "firstTrain": {
+        "Dhoby Ghaut": {
+          "Mon - Fri": "0536",
+          "Sat": "0536",
+          "Sun / PH": "0557"
+        }
+      },
+      "lastTrain": {
+        "Dhoby Ghaut": {
+          "Mon - Fri": "2317",
+          "Sat": "2317",
+          "Sun / PH": "2317"
+        },
+        "Mountbatten": {
+          "Mon - Fri": "2354",
+          "Sat": "2354",
+          "Sun / PH": "2354"
+        },
+        "Bartley": { "Mon - Fri": "0017", "Sat": "0017", "Sun / PH": "0017" }
+      }
+    },
+    {
+      "direction": "HarbourFront",
+      "firstTrain": {
+        "HarbourFront": {
+          "Mon - Fri": "0541",
+          "Sat": "0541",
+          "Sun / PH": "0605"
+        }
+      },
+      "lastTrain": {
+        "HarbourFront": {
+          "Mon - Fri": "2335",
+          "Sat": "2335",
+          "Sun / PH": "2335"
+        },
+        "Pasir Panjang": {
+          "Mon - Fri": "0006",
+          "Sat": "0006",
+          "Sun / PH": "0006"
+        }
+      }
+    }
+  ],
+  "Orchard": [
+    {
+      "direction": "Jurong East",
+      "firstTrain": {
+        "Jurong East": {
+          "Mon - Fri": "0611",
+          "Sat": "0611",
+          "Sun / PH": "0636"
+        }
+      },
+      "lastTrain": {
+        "Jurong East": {
+          "Mon - Fri": "0000",
+          "Sat": "0000",
+          "Sun / PH": "0000"
+        },
+        "Kranji": { "Mon - Fri": "0017", "Sat": "0017", "Sun / PH": "0017" }
+      }
+    },
+    {
+      "direction": "Marina South Pier",
+      "firstTrain": {
+        "Marina South Pier": {
+          "Mon - Fri": "0549",
+          "Sat": "0549",
+          "Sun / PH": "0614"
+        }
+      },
+      "lastTrain": {
+        "Marina South Pier": {
+          "Mon - Fri": "2347",
+          "Sat": "2347",
+          "Sun / PH": "2347"
+        },
+        "Marina Bay": { "Mon - Fri": "2350", "Sat": "2350", "Sun / PH": "2350" }
+      }
+    }
+  ],
+  "Outram Park": [
+    {
+      "direction": "Pasir Ris",
+      "firstTrain": {
+        "Pasir Ris": { "Mon - Fri": "0554", "Sat": "0554", "Sun / PH": "0622" }
+      },
+      "lastTrain": {
+        "Pasir Ris": { "Mon - Fri": "0004", "Sat": "0004", "Sun / PH": "0004" }
+      }
+    },
+    {
+      "direction": "Tuas Link",
+      "firstTrain": {
+        "Tuas Link": { "Mon - Fri": "0604", "Sat": "0604", "Sun / PH": "0630" }
+      },
+      "lastTrain": {
+        "Tuas Link": { "Mon - Fri": "0004", "Sat": "0004", "Sun / PH": "0004" }
+      }
+    },
+    {
+      "direction": "HarbourFront",
+      "firstTrain": {
+        "HarbourFront": {
+          "Mon - Fri": "0612",
+          "Sat": "0611",
+          "Sun / PH": "0632"
+        }
+      },
+      "lastTrain": {
+        "HarbourFront": {
+          "Mon - Fri": "2358",
+          "Sat": "2358",
+          "Sun / PH": "2358"
+        }
+      }
+    },
+    {
+      "direction": "Punggol",
+      "firstTrain": {
+        "Punggol": { "Mon - Fri": "0548", "Sat": "0603", "Sun / PH": "0623" }
+      },
+      "lastTrain": {
+        "Punggol": { "Mon - Fri": "2358", "Sat": "2358", "Sun / PH": "2358" }
+      }
+    }
+  ],
+  "Pasir Panjang": [
+    {
+      "direction": "Dhoby Ghaut",
+      "firstTrain": {
+        "Dhoby Ghaut": {
+          "Mon - Fri": "0530",
+          "Sat": "0530",
+          "Sun / PH": "0551"
+        }
+      },
+      "lastTrain": {
+        "Dhoby Ghaut": {
+          "Mon - Fri": "2310",
+          "Sat": "2310",
+          "Sun / PH": "2310"
+        },
+        "Mountbatten": {
+          "Mon - Fri": "2347",
+          "Sat": "2347",
+          "Sun / PH": "2347"
+        },
+        "Bartley": { "Mon - Fri": "0011", "Sat": "0011", "Sun / PH": "0011" }
+      }
+    },
+    {
+      "direction": "HarbourFront",
+      "firstTrain": {
+        "HarbourFront": {
+          "Mon - Fri": "0540",
+          "Sat": "0540",
+          "Sun / PH": "0604"
+        }
+      },
+      "lastTrain": {
+        "HarbourFront": {
+          "Mon - Fri": "2342",
+          "Sat": "2342",
+          "Sun / PH": "2342"
+        }
+      }
+    }
+  ],
+  "Pasir Ris": [
+    {
+      "direction": "Tuas Link",
+      "firstTrain": {
+        "Tuas Link": { "Mon - Fri": "0528", "Sat": "0528", "Sun / PH": "0554" }
+      },
+      "lastTrain": {
+        "Tuas Link": { "Mon - Fri": "2323", "Sat": "2323", "Sun / PH": "2323" }
+      }
+    }
+  ],
+  "Paya Lebar": [
+    {
+      "direction": "Pasir Ris",
+      "firstTrain": {
+        "Pasir Ris": { "Mon - Fri": "0611", "Sat": "0611", "Sun / PH": "0639" }
+      },
+      "lastTrain": {
+        "Pasir Ris": { "Mon - Fri": "0022", "Sat": "0022", "Sun / PH": "0022" }
+      }
+    },
+    {
+      "direction": "Tuas Link",
+      "firstTrain": {
+        "Tuas Link": { "Mon - Fri": "0546", "Sat": "0546", "Sun / PH": "0612" }
+      },
+      "lastTrain": {
+        "Tuas Link": { "Mon - Fri": "2341", "Sat": "2341", "Sun / PH": "2341" }
+      }
+    },
+    {
+      "direction": "Dhoby Ghaut",
+      "firstTrain": {
+        "Dhoby Ghaut": {
+          "Mon - Fri": "0540",
+          "Sat": "0540",
+          "Sun / PH": "0607"
+        }
+      },
+      "lastTrain": {
+        "Dhoby Ghaut": {
+          "Mon - Fri": "2349",
+          "Sat": "2349",
+          "Sun / PH": "2349"
+        },
+        "Mountbatten": {
+          "Mon - Fri": "0026",
+          "Sat": "0026",
+          "Sun / PH": "0026"
+        }
+      }
+    },
+    {
+      "direction": "HarbourFront",
+      "firstTrain": {
+        "HarbourFront": {
+          "Mon - Fri": "0540",
+          "Sat": "0540",
+          "Sun / PH": "0607"
+        }
+      },
+      "lastTrain": {
+        "HarbourFront": {
+          "Mon - Fri": "2304",
+          "Sat": "2304",
+          "Sun / PH": "2304"
+        },
+        "Pasir Panjang": {
+          "Mon - Fri": "2334",
+          "Sat": "2334",
+          "Sun / PH": "2334"
+        },
+        "one-north": { "Mon - Fri": "2350", "Sat": "2350", "Sun / PH": "2350" },
+        "Caldecott": { "Mon - Fri": "0018", "Sat": "0018", "Sun / PH": "0018" },
+        "Tai Seng": { "Mon - Fri": "0026", "Sat": "0026", "Sun / PH": "0026" }
+      }
+    }
+  ],
+  "Pioneer": [
+    {
+      "direction": "Pasir Ris",
+      "firstTrain": {
+        "Pasir Ris": { "Mon - Fri": "0534", "Sat": "0534", "Sun / PH": "0604" }
+      },
+      "lastTrain": {
+        "Pasir Ris": { "Mon - Fri": "2336", "Sat": "2336", "Sun / PH": "2336" }
+      }
+    },
+    {
+      "direction": "Tuas Link",
+      "firstTrain": {
+        "Tuas Link": { "Mon - Fri": "0523", "Sat": "0523", "Sun / PH": "0553" }
+      },
+      "lastTrain": {
+        "Tuas Link": { "Mon - Fri": "0034", "Sat": "0034", "Sun / PH": "0034" }
+      }
+    }
+  ],
+  "Potong Pasir": [
+    {
+      "direction": "HarbourFront",
+      "firstTrain": {
+        "HarbourFront": {
+          "Mon - Fri": "0557",
+          "Sat": "0557",
+          "Sun / PH": "0618"
+        }
+      },
+      "lastTrain": {
+        "HarbourFront": {
+          "Mon - Fri": "2343",
+          "Sat": "2343",
+          "Sun / PH": "2343"
+        }
+      }
+    },
+    {
+      "direction": "Punggol",
+      "firstTrain": {
+        "Punggol": { "Mon - Fri": "0602", "Sat": "0617", "Sun / PH": "0637" }
+      },
+      "lastTrain": {
+        "Punggol": { "Mon - Fri": "0012", "Sat": "0012", "Sun / PH": "0012" }
+      }
+    }
+  ],
+  "Promenade": [
+    {
+      "direction": "Dhoby Ghaut",
+      "firstTrain": {
+        "Dhoby Ghaut": {
+          "Mon - Fri": "0550",
+          "Sat": "0550",
+          "Sun / PH": "0617"
+        }
+      },
+      "lastTrain": {
+        "Dhoby Ghaut": {
+          "Mon - Fri": "2359",
+          "Sat": "2359",
+          "Sun / PH": "2359"
+        }
+      }
+    },
+    {
+      "direction": "HarbourFront",
+      "firstTrain": {
+        "HarbourFront": {
+          "Mon - Fri": "0543",
+          "Sat": "0543",
+          "Sun / PH": "0610"
+        },
+        "Stadium": { "Mon - Fri": "0605", "Sat": "0605", "Sun / PH": "0628" }
+      },
+      "lastTrain": {
+        "HarbourFront": {
+          "Mon - Fri": "2254",
+          "Sat": "2254",
+          "Sun / PH": "2254"
+        },
+        "Pasir Panjang": {
+          "Mon - Fri": "2324",
+          "Sat": "2324",
+          "Sun / PH": "2324"
+        },
+        "one-north": { "Mon - Fri": "2340", "Sat": "2340", "Sun / PH": "2340" },
+        "Stadium": { "Mon - Fri": "2359", "Sat": "2359", "Sun / PH": "2359" },
+        "Caldecott": { "Mon - Fri": "0008", "Sat": "0008", "Sun / PH": "0008" },
+        "Tai Seng": { "Mon - Fri": "0015", "Sat": "0015", "Sun / PH": "0015" }
+      }
+    },
+    {
+      "direction": "Bukit Panjang",
+      "firstTrain": {
+        "Bukit Panjang": {
+          "Mon - Fri": "0618",
+          "Sat": "0618",
+          "Sun / PH": "0636"
+        }
+      },
+      "lastTrain": {
+        "Bukit Panjang": {
+          "Mon - Fri": "0018",
+          "Sat": "0018",
+          "Sun / PH": "0018"
+        }
+      }
+    },
+    {
+      "direction": "Expo",
+      "firstTrain": {
+        "Expo": { "Mon - Fri": "0600", "Sat": "0600", "Sun / PH": "0620" }
+      },
+      "lastTrain": {
+        "Expo": { "Mon - Fri": "0005", "Sat": "0005", "Sun / PH": "0005" }
+      }
+    }
+  ],
+  "Punggol": [
+    {
+      "direction": "HarbourFront",
+      "firstTrain": {
+        "HarbourFront": {
+          "Mon - Fri": "0542",
+          "Sat": "0542",
+          "Sun / PH": "0603"
+        }
+      },
+      "lastTrain": {
+        "HarbourFront": {
+          "Mon - Fri": "2328",
+          "Sat": "2328",
+          "Sun / PH": "2328"
+        }
+      }
+    }
+  ],
+  "Queenstown": [
+    {
+      "direction": "Pasir Ris",
+      "firstTrain": {
+        "Pasir Ris": { "Mon - Fri": "0546", "Sat": "0546", "Sun / PH": "0614" }
+      },
+      "lastTrain": {
+        "Pasir Ris": { "Mon - Fri": "2357", "Sat": "2357", "Sun / PH": "2357" }
+      }
+    },
+    {
+      "direction": "Tuas Link",
+      "firstTrain": {
+        "Tuas Link": { "Mon - Fri": "0611", "Sat": "0611", "Sun / PH": "0637" }
+      },
+      "lastTrain": {
+        "Tuas Link": { "Mon - Fri": "0011", "Sat": "0011", "Sun / PH": "0011" }
+      }
+    }
+  ],
+  "Raffles Place": [
+    {
+      "direction": "Pasir Ris",
+      "firstTrain": {
+        "Pasir Ris": { "Mon - Fri": "0559", "Sat": "0559", "Sun / PH": "0627" }
+      },
+      "lastTrain": {
+        "Pasir Ris": { "Mon - Fri": "0009", "Sat": "0009", "Sun / PH": "0009" }
+      }
+    },
+    {
+      "direction": "Tuas Link",
+      "firstTrain": {
+        "Tuas Link": { "Mon - Fri": "0559", "Sat": "0559", "Sun / PH": "0625" }
+      },
+      "lastTrain": {
+        "Tuas Link": { "Mon - Fri": "2358", "Sat": "2358", "Sun / PH": "2358" }
+      }
+    },
+    {
+      "direction": "Jurong East",
+      "firstTrain": {
+        "Jurong East": {
+          "Mon - Fri": "0603",
+          "Sat": "0603",
+          "Sun / PH": "0628"
+        }
+      },
+      "lastTrain": {
+        "Jurong East": {
+          "Mon - Fri": "2353",
+          "Sat": "2353",
+          "Sun / PH": "2353"
+        },
+        "Kranji": { "Mon - Fri": "0009", "Sat": "0009", "Sun / PH": "0009" }
+      }
+    },
+    {
+      "direction": "Marina South Pier",
+      "firstTrain": {
+        "Marina South Pier": {
+          "Mon - Fri": "0557",
+          "Sat": "0557",
+          "Sun / PH": "0622"
+        }
+      },
+      "lastTrain": {
+        "Marina South Pier": {
+          "Mon - Fri": "2354",
+          "Sat": "2354",
+          "Sun / PH": "2354"
+        },
+        "Marina Bay": { "Mon - Fri": "2358", "Sat": "2358", "Sun / PH": "2358" }
+      }
+    }
+  ],
+  "Redhill": [
+    {
+      "direction": "Pasir Ris",
+      "firstTrain": {
+        "Pasir Ris": { "Mon - Fri": "0549", "Sat": "0549", "Sun / PH": "0617" }
+      },
+      "lastTrain": {
+        "Pasir Ris": { "Mon - Fri": "2359", "Sat": "2359", "Sun / PH": "2359" }
+      }
+    },
+    {
+      "direction": "Tuas Link",
+      "firstTrain": {
+        "Tuas Link": { "Mon - Fri": "0609", "Sat": "0609", "Sun / PH": "0635" }
+      },
+      "lastTrain": {
+        "Tuas Link": { "Mon - Fri": "0008", "Sat": "0008", "Sun / PH": "0008" }
+      }
+    }
+  ],
+  "Rochor": [
+    {
+      "direction": "Bukit Panjang",
+      "firstTrain": {
+        "Bukit Panjang": {
+          "Mon - Fri": "0605",
+          "Sat": "0605",
+          "Sun / PH": "0634"
+        }
+      },
+      "lastTrain": {
+        "Bukit Panjang": {
+          "Mon - Fri": "0022",
+          "Sat": "0022",
+          "Sun / PH": "0022"
+        }
+      }
+    },
+    {
+      "direction": "Expo",
+      "firstTrain": {
+        "Expo": { "Mon - Fri": "0555", "Sat": "0555", "Sun / PH": "0615" }
+      },
+      "lastTrain": {
+        "Expo": { "Mon - Fri": "0000", "Sat": "0000", "Sun / PH": "0000" }
+      }
+    }
+  ],
+  "Sembawang": [
+    {
+      "direction": "Jurong East",
+      "firstTrain": {
+        "Jurong East": {
+          "Mon - Fri": "0531",
+          "Sat": "0530",
+          "Sun / PH": "0554"
+        }
+      },
+      "lastTrain": {
+        "Jurong East": {
+          "Mon - Fri": "0029",
+          "Sat": "0029",
+          "Sun / PH": "0029"
+        },
+        "Kranji": { "Mon - Fri": "0046", "Sat": "0046", "Sun / PH": "0046" }
+      }
+    },
+    {
+      "direction": "Marina South Pier",
+      "firstTrain": {
+        "Marina South Pier": {
+          "Mon - Fri": "0534",
+          "Sat": "0534",
+          "Sun / PH": "0552"
+        }
+      },
+      "lastTrain": {
+        "Marina South Pier": {
+          "Mon - Fri": "2319",
+          "Sat": "2319",
+          "Sun / PH": "2319"
+        },
+        "Marina Bay": {
+          "Mon - Fri": "2321",
+          "Sat": "2321",
+          "Sun / PH": "2321"
+        },
+        "Toa Payoh": { "Mon - Fri": "2357", "Sat": "2357", "Sun / PH": "2357" },
+        "Ang Mo Kio": { "Mon - Fri": "0046", "Sat": "0046", "Sun / PH": "0046" }
+      }
+    }
+  ],
+  "Sengkang": [
+    {
+      "direction": "HarbourFront",
+      "firstTrain": {
+        "HarbourFront": {
+          "Mon - Fri": "0544",
+          "Sat": "0544",
+          "Sun / PH": "0605"
+        }
+      },
+      "lastTrain": {
+        "HarbourFront": {
+          "Mon - Fri": "2330",
+          "Sat": "2330",
+          "Sun / PH": "2330"
+        }
+      }
+    },
+    {
+      "direction": "Punggol",
+      "firstTrain": {
+        "Punggol": { "Mon - Fri": "0537", "Sat": "0536", "Sun / PH": "0556" }
+      },
+      "lastTrain": {
+        "Punggol": { "Mon - Fri": "0026", "Sat": "0025", "Sun / PH": "0025" }
+      }
+    }
+  ],
+  "Serangoon": [
+    {
+      "direction": "HarbourFront",
+      "firstTrain": {
+        "HarbourFront": {
+          "Mon - Fri": "0553",
+          "Sat": "0554",
+          "Sun / PH": "0614"
+        }
+      },
+      "lastTrain": {
+        "HarbourFront": {
+          "Mon - Fri": "2339",
+          "Sat": "2339",
+          "Sun / PH": "2339"
+        }
+      }
+    },
+    {
+      "direction": "Punggol",
+      "firstTrain": {
+        "Punggol": { "Mon - Fri": "0606", "Sat": "0621", "Sun / PH": "0641" }
+      },
+      "lastTrain": {
+        "Punggol": { "Mon - Fri": "0017", "Sat": "0017", "Sun / PH": "0016" }
+      }
+    },
+    {
+      "direction": "Dhoby Ghaut",
+      "firstTrain": {
+        "Dhoby Ghaut": {
+          "Mon - Fri": "0544",
+          "Sat": "0544",
+          "Sun / PH": "0611"
+        }
+      },
+      "lastTrain": {
+        "Dhoby Ghaut": {
+          "Mon - Fri": "2340",
+          "Sat": "2340",
+          "Sun / PH": "2340"
+        },
+        "Mountbatten": {
+          "Mon - Fri": "0017",
+          "Sat": "0017",
+          "Sun / PH": "0017"
+        },
+        "Bartley": { "Mon - Fri": "0040", "Sat": "0040", "Sun / PH": "0040" }
+      }
+    },
+    {
+      "direction": "HarbourFront",
+      "firstTrain": {
+        "HarbourFront": {
+          "Mon - Fri": "0518",
+          "Sat": "0518",
+          "Sun / PH": "0542"
+        }
+      },
+      "lastTrain": {
+        "HarbourFront": {
+          "Mon - Fri": "2313",
+          "Sat": "2313",
+          "Sun / PH": "2313"
+        },
+        "Pasir Panjang": {
+          "Mon - Fri": "2343",
+          "Sat": "2343",
+          "Sun / PH": "2343"
+        },
+        "one-north": { "Mon - Fri": "2359", "Sat": "2359", "Sun / PH": "2359" },
+        "Caldecott": { "Mon - Fri": "0027", "Sat": "0027", "Sun / PH": "0027" }
+      }
+    }
+  ],
+  "Simei": [
+    {
+      "direction": "Pasir Ris",
+      "firstTrain": {
+        "Pasir Ris": { "Mon - Fri": "0519", "Sat": "0519", "Sun / PH": "0545" }
+      },
+      "lastTrain": {
+        "Pasir Ris": { "Mon - Fri": "0034", "Sat": "0034", "Sun / PH": "0034" }
+      }
+    },
+    {
+      "direction": "Tuas Link",
+      "firstTrain": {
+        "Tuas Link": { "Mon - Fri": "0533", "Sat": "0533", "Sun / PH": "0559" }
+      },
+      "lastTrain": {
+        "Tuas Link": { "Mon - Fri": "2328", "Sat": "2328", "Sun / PH": "2328" }
+      }
+    }
+  ],
+  "Sixth Avenue": [
+    {
+      "direction": "Bukit Panjang",
+      "firstTrain": {
+        "Bukit Panjang": {
+          "Mon - Fri": "0604",
+          "Sat": "0604",
+          "Sun / PH": "0625"
+        }
+      },
+      "lastTrain": {
+        "Bukit Panjang": {
+          "Mon - Fri": "0036",
+          "Sat": "0036",
+          "Sun / PH": "0036"
+        }
+      }
+    },
+    {
+      "direction": "Expo",
+      "firstTrain": {
+        "Expo": { "Mon - Fri": "0542", "Sat": "0542", "Sun / PH": "0602" }
+      },
+      "lastTrain": {
+        "Expo": { "Mon - Fri": "2347", "Sat": "2347", "Sun / PH": "2347" }
+      }
+    }
+  ],
+  "Somerset": [
+    {
+      "direction": "Jurong East",
+      "firstTrain": {
+        "Jurong East": {
+          "Mon - Fri": "0609",
+          "Sat": "0609",
+          "Sun / PH": "0634"
+        }
+      },
+      "lastTrain": {
+        "Jurong East": {
+          "Mon - Fri": "2358",
+          "Sat": "2358",
+          "Sun / PH": "2358"
+        },
+        "Kranji": { "Mon - Fri": "0015", "Sat": "0015", "Sun / PH": "0015" }
+      }
+    },
+    {
+      "direction": "Marina South Pier",
+      "firstTrain": {
+        "Marina South Pier": {
+          "Mon - Fri": "0551",
+          "Sat": "0551",
+          "Sun / PH": "0616"
+        }
+      },
+      "lastTrain": {
+        "Marina South Pier": {
+          "Mon - Fri": "2349",
+          "Sat": "2349",
+          "Sun / PH": "2349"
+        },
+        "Marina Bay": { "Mon - Fri": "2352", "Sat": "2352", "Sun / PH": "2352" }
+      }
+    }
+  ],
+  "Springleaf": [
+    {
+      "direction": "Woodlands North",
+      "firstTrain": {
+        "Woodlands North": {
+          "Mon - Fri": "0605",
+          "Sat": "0605",
+          "Sun / PH": "0605"
+        }
+      },
+      "lastTrain": {
+        "Woodlands North": {
+          "Mon - Fri": "2348",
+          "Sat": "2348",
+          "Sun / PH": "2348"
+        }
+      }
+    },
+    {
+      "direction": "Caldecott",
+      "firstTrain": {
+        "Caldecott": { "Mon - Fri": "0546", "Sat": "0546", "Sun / PH": "0546" }
+      },
+      "lastTrain": {
+        "Caldecott": { "Mon - Fri": "2337", "Sat": "2337", "Sun / PH": "2337" }
+      }
+    }
+  ],
+  "Stadium": [
+    {
+      "direction": "Dhoby Ghaut",
+      "firstTrain": {
+        "Dhoby Ghaut": {
+          "Mon - Fri": "0545",
+          "Sat": "0545",
+          "Sun / PH": "0613"
+        }
+      },
+      "lastTrain": {
+        "Dhoby Ghaut": {
+          "Mon - Fri": "2354",
+          "Sat": "2354",
+          "Sun / PH": "2354"
+        }
+      }
+    },
+    {
+      "direction": "HarbourFront",
+      "firstTrain": {
+        "HarbourFront": {
+          "Mon - Fri": "0547",
+          "Sat": "0547",
+          "Sun / PH": "0615"
+        }
+      },
+      "lastTrain": {
+        "HarbourFront": {
+          "Mon - Fri": "2258",
+          "Sat": "2258",
+          "Sun / PH": "2258"
+        },
+        "Pasir Panjang": {
+          "Mon - Fri": "2328",
+          "Sat": "2328",
+          "Sun / PH": "2328"
+        },
+        "one-north": { "Mon - Fri": "2344", "Sat": "2344", "Sun / PH": "2344" },
+        "Caldecott": { "Mon - Fri": "0012", "Sat": "0012", "Sun / PH": "0012" },
+        "Tai Seng": { "Mon - Fri": "0020", "Sat": "0020", "Sun / PH": "0020" }
+      }
+    }
+  ],
+  "Stevens": [
+    {
+      "direction": "Bukit Panjang",
+      "firstTrain": {
+        "Bukit Panjang": {
+          "Mon - Fri": "0558",
+          "Sat": "0558",
+          "Sun / PH": "0618"
+        }
+      },
+      "lastTrain": {
+        "Bukit Panjang": {
+          "Mon - Fri": "0029",
+          "Sat": "0029",
+          "Sun / PH": "0029"
+        }
+      }
+    },
+    {
+      "direction": "Expo",
+      "firstTrain": {
+        "Expo": { "Mon - Fri": "0548", "Sat": "0548", "Sun / PH": "0608" }
+      },
+      "lastTrain": {
+        "Expo": { "Mon - Fri": "2353", "Sat": "2353", "Sun / PH": "2353" }
+      }
+    }
+  ],
+  "Tai Seng": [
+    {
+      "direction": "Dhoby Ghaut",
+      "firstTrain": {
+        "Dhoby Ghaut": {
+          "Mon - Fri": "0535",
+          "Sat": "0535",
+          "Sun / PH": "0602"
+        }
+      },
+      "lastTrain": {
+        "Dhoby Ghaut": {
+          "Mon - Fri": "2344",
+          "Sat": "2344",
+          "Sun / PH": "2344"
+        },
+        "Mountbatten": {
+          "Mon - Fri": "0021",
+          "Sat": "0021",
+          "Sun / PH": "0021"
+        }
+      }
+    },
+    {
+      "direction": "HarbourFront",
+      "firstTrain": {
+        "HarbourFront": {
+          "Mon - Fri": "0544",
+          "Sat": "0544",
+          "Sun / PH": "0611"
+        }
+      },
+      "lastTrain": {
+        "HarbourFront": {
+          "Mon - Fri": "2308",
+          "Sat": "2308",
+          "Sun / PH": "2308"
+        },
+        "Pasir Panjang": {
+          "Mon - Fri": "2338",
+          "Sat": "2338",
+          "Sun / PH": "2338"
+        },
+        "one-north": { "Mon - Fri": "2354", "Sat": "2354", "Sun / PH": "2354" },
+        "Caldecott": { "Mon - Fri": "0022", "Sat": "0022", "Sun / PH": "0022" }
+      }
+    }
+  ],
+  "Tampines": [
+    {
+      "direction": "Pasir Ris",
+      "firstTrain": {
+        "Pasir Ris": { "Mon - Fri": "0521", "Sat": "0521", "Sun / PH": "0547" }
+      },
+      "lastTrain": {
+        "Pasir Ris": { "Mon - Fri": "0037", "Sat": "0037", "Sun / PH": "0037" }
+      }
+    },
+    {
+      "direction": "Tuas Link",
+      "firstTrain": {
+        "Tuas Link": { "Mon - Fri": "0531", "Sat": "0531", "Sun / PH": "0557" }
+      },
+      "lastTrain": {
+        "Tuas Link": { "Mon - Fri": "2326", "Sat": "2326", "Sun / PH": "2326" }
+      }
+    },
+    {
+      "direction": "Bukit Panjang",
+      "firstTrain": {
+        "Bukit Panjang": {
+          "Mon - Fri": "0543",
+          "Sat": "0543",
+          "Sun / PH": "0601"
+        }
+      },
+      "lastTrain": {
+        "Bukit Panjang": {
+          "Mon - Fri": "2347",
+          "Sat": "2347",
+          "Sun / PH": "2347"
+        }
+      }
+    },
+    {
+      "direction": "Expo",
+      "firstTrain": {
+        "Expo": { "Mon - Fri": "0616", "Sat": "0616", "Sun / PH": "0636" }
+      },
+      "lastTrain": {
+        "Expo": { "Mon - Fri": "0035", "Sat": "0035", "Sun / PH": "0035" }
+      }
+    }
+  ],
+  "Tampines East": [
+    {
+      "direction": "Bukit Panjang",
+      "firstTrain": {
+        "Bukit Panjang": {
+          "Mon - Fri": "0541",
+          "Sat": "0541",
+          "Sun / PH": "0559"
+        }
+      },
+      "lastTrain": {
+        "Bukit Panjang": {
+          "Mon - Fri": "2345",
+          "Sat": "2345",
+          "Sun / PH": "2345"
+        }
+      }
+    },
+    {
+      "direction": "Expo",
+      "firstTrain": {
+        "Expo": { "Mon - Fri": "0618", "Sat": "0618", "Sun / PH": "0638" }
+      },
+      "lastTrain": {
+        "Expo": { "Mon - Fri": "0037", "Sat": "0037", "Sun / PH": "0037" }
+      }
+    }
+  ],
+  "Tampines West": [
+    {
+      "direction": "Bukit Panjang",
+      "firstTrain": {
+        "Bukit Panjang": {
+          "Mon - Fri": "0545",
+          "Sat": "0545",
+          "Sun / PH": "0603"
+        }
+      },
+      "lastTrain": {
+        "Bukit Panjang": {
+          "Mon - Fri": "2349",
+          "Sat": "2349",
+          "Sun / PH": "2349"
+        }
+      }
+    },
+    {
+      "direction": "Expo",
+      "firstTrain": {
+        "Expo": { "Mon - Fri": "0613", "Sat": "0613", "Sun / PH": "0633" }
+      },
+      "lastTrain": {
+        "Expo": { "Mon - Fri": "0033", "Sat": "0033", "Sun / PH": "0033" }
+      }
+    }
+  ],
+  "Tan Kah Kee": [
+    {
+      "direction": "Bukit Panjang",
+      "firstTrain": {
+        "Bukit Panjang": {
+          "Mon - Fri": "0602",
+          "Sat": "0602",
+          "Sun / PH": "0623"
+        }
+      },
+      "lastTrain": {
+        "Bukit Panjang": {
+          "Mon - Fri": "0034",
+          "Sat": "0034",
+          "Sun / PH": "0034"
+        }
+      }
+    },
+    {
+      "direction": "Expo",
+      "firstTrain": {
+        "Expo": { "Mon - Fri": "0544", "Sat": "0544", "Sun / PH": "0604" }
+      },
+      "lastTrain": {
+        "Expo": { "Mon - Fri": "2349", "Sat": "2349", "Sun / PH": "2349" }
+      }
+    }
+  ],
+  "Tanah Merah": [
+    {
+      "direction": "Pasir Ris",
+      "firstTrain": {
+        "Pasir Ris": { "Mon - Fri": "0516", "Sat": "0516", "Sun / PH": "0542" }
+      },
+      "lastTrain": {
+        "Pasir Ris": { "Mon - Fri": "0031", "Sat": "0031", "Sun / PH": "0031" }
+      }
+    },
+    {
+      "direction": "Tuas Link",
+      "firstTrain": {
+        "Tuas Link": { "Mon - Fri": "0536", "Sat": "0536", "Sun / PH": "0602" }
+      },
+      "lastTrain": {
+        "Tuas Link": { "Mon - Fri": "2331", "Sat": "2331", "Sun / PH": "2331" }
+      }
+    },
+    {
+      "direction": "Changi Airport",
+      "firstTrain": {
+        "Changi Airport": {
+          "Mon - Fri": "0520",
+          "Sat": "0520",
+          "Sun / PH": "0547"
+        }
+      },
+      "lastTrain": {
+        "Changi Airport": {
+          "Mon - Fri": "2350",
+          "Sat": "2350",
+          "Sun / PH": "2350"
+        }
+      }
+    }
+  ],
+  "Tanjong Pagar": [
+    {
+      "direction": "Pasir Ris",
+      "firstTrain": {
+        "Pasir Ris": { "Mon - Fri": "0556", "Sat": "0556", "Sun / PH": "0624" }
+      },
+      "lastTrain": {
+        "Pasir Ris": { "Mon - Fri": "0006", "Sat": "0006", "Sun / PH": "0006" }
+      }
+    },
+    {
+      "direction": "Tuas Link",
+      "firstTrain": {
+        "Tuas Link": { "Mon - Fri": "0602", "Sat": "0602", "Sun / PH": "0628" }
+      },
+      "lastTrain": {
+        "Tuas Link": { "Mon - Fri": "0001", "Sat": "0001", "Sun / PH": "0001" }
+      }
+    }
+  ],
+  "Telok Ayer": [
+    {
+      "direction": "Bukit Panjang",
+      "firstTrain": {
+        "Bukit Panjang": {
+          "Mon - Fri": "0611",
+          "Sat": "0611",
+          "Sun / PH": "0629"
+        }
+      },
+      "lastTrain": {
+        "Bukit Panjang": {
+          "Mon - Fri": "0011",
+          "Sat": "0011",
+          "Sun / PH": "0011"
+        }
+      }
+    },
+    {
+      "direction": "Expo",
+      "firstTrain": {
+        "Expo": { "Mon - Fri": "0606", "Sat": "0606", "Sun / PH": "0626" }
+      },
+      "lastTrain": {
+        "Expo": { "Mon - Fri": "0011", "Sat": "0011", "Sun / PH": "0011" }
+      }
+    }
+  ],
+  "Telok Blangah": [
+    {
+      "direction": "Dhoby Ghaut",
+      "firstTrain": {
+        "Dhoby Ghaut": {
+          "Mon - Fri": "0532",
+          "Sat": "0532",
+          "Sun / PH": "0554"
+        }
+      },
+      "lastTrain": {
+        "Dhoby Ghaut": {
+          "Mon - Fri": "2306",
+          "Sat": "2306",
+          "Sun / PH": "2306"
+        },
+        "Mountbatten": {
+          "Mon - Fri": "2343",
+          "Sat": "2343",
+          "Sun / PH": "2343"
+        },
+        "Bartley": { "Mon - Fri": "0006", "Sat": "0006", "Sun / PH": "0006" }
+      }
+    },
+    {
+      "direction": "HarbourFront",
+      "firstTrain": {
+        "HarbourFront": {
+          "Mon - Fri": "0544",
+          "Sat": "0544",
+          "Sun / PH": "0608"
+        }
+      },
+      "lastTrain": {
+        "HarbourFront": {
+          "Mon - Fri": "2346",
+          "Sat": "2346",
+          "Sun / PH": "2346"
+        }
+      }
+    }
+  ],
+  "Tiong Bahru": [
+    {
+      "direction": "Pasir Ris",
+      "firstTrain": {
+        "Pasir Ris": { "Mon - Fri": "0551", "Sat": "0551", "Sun / PH": "0619" }
+      },
+      "lastTrain": {
+        "Pasir Ris": { "Mon - Fri": "0001", "Sat": "0001", "Sun / PH": "0001" }
+      }
+    },
+    {
+      "direction": "Tuas Link",
+      "firstTrain": {
+        "Tuas Link": { "Mon - Fri": "0607", "Sat": "0607", "Sun / PH": "0633" }
+      },
+      "lastTrain": {
+        "Tuas Link": { "Mon - Fri": "0006", "Sat": "0006", "Sun / PH": "0006" }
+      }
+    }
+  ],
+  "Toa Payoh": [
+    {
+      "direction": "Jurong East",
+      "firstTrain": {
+        "Jurong East": {
+          "Mon - Fri": "0604",
+          "Sat": "0618",
+          "Sun / PH": "0625"
+        }
+      },
+      "lastTrain": {
+        "Jurong East": {
+          "Mon - Fri": "0008",
+          "Sat": "0008",
+          "Sun / PH": "0008"
+        },
+        "Kranji": { "Mon - Fri": "0024", "Sat": "0024", "Sun / PH": "0024" }
+      }
+    },
+    {
+      "direction": "Marina South Pier",
+      "firstTrain": {
+        "Marina South Pier": {
+          "Mon - Fri": "0541",
+          "Sat": "0541",
+          "Sun / PH": "0606"
+        }
+      },
+      "lastTrain": {
+        "Marina South Pier": {
+          "Mon - Fri": "2340",
+          "Sat": "2340",
+          "Sun / PH": "2340"
+        },
+        "Marina Bay": { "Mon - Fri": "2343", "Sat": "2343", "Sun / PH": "2343" }
+      }
+    }
+  ],
+  "Tuas Crescent": [
+    {
+      "direction": "Pasir Ris",
+      "firstTrain": {
+        "Pasir Ris": { "Mon - Fri": "0523", "Sat": "0523", "Sun / PH": "0553" }
+      },
+      "lastTrain": {
+        "Pasir Ris": { "Mon - Fri": "2324", "Sat": "2324", "Sun / PH": "2324" }
+      }
+    },
+    {
+      "direction": "Tuas Link",
+      "firstTrain": {
+        "Tuas Link": { "Mon - Fri": "0532", "Sat": "0532", "Sun / PH": "0602" }
+      },
+      "lastTrain": {
+        "Tuas Link": { "Mon - Fri": "0043", "Sat": "0043", "Sun / PH": "0043" }
+      }
+    }
+  ],
+  "Tuas Link": [
+    {
+      "direction": "Pasir Ris",
+      "firstTrain": {
+        "Pasir Ris": { "Mon - Fri": "0519", "Sat": "0519", "Sun / PH": "0549" }
+      },
+      "lastTrain": {
+        "Pasir Ris": { "Mon - Fri": "2320", "Sat": "2320", "Sun / PH": "2320" }
+      }
+    }
+  ],
+  "Tuas West Road": [
+    {
+      "direction": "Pasir Ris",
+      "firstTrain": {
+        "Pasir Ris": { "Mon - Fri": "0521", "Sat": "0531", "Sun / PH": "0551" }
+      },
+      "lastTrain": {
+        "Pasir Ris": { "Mon - Fri": "2322", "Sat": "2322", "Sun / PH": "2322" }
+      }
+    },
+    {
+      "direction": "Tuas Link",
+      "firstTrain": {
+        "Tuas Link": { "Mon - Fri": "0534", "Sat": "0534", "Sun / PH": "0604" }
+      },
+      "lastTrain": {
+        "Tuas Link": { "Mon - Fri": "0045", "Sat": "0045", "Sun / PH": "0045" }
+      }
+    }
+  ],
+  "Ubi": [
+    {
+      "direction": "Bukit Panjang",
+      "firstTrain": {
+        "Bukit Panjang": {
+          "Mon - Fri": "0554",
+          "Sat": "0554",
+          "Sun / PH": "0612"
+        }
+      },
+      "lastTrain": {
+        "Bukit Panjang": {
+          "Mon - Fri": "2358",
+          "Sat": "2358",
+          "Sun / PH": "2358"
+        }
+      }
+    },
+    {
+      "direction": "Expo",
+      "firstTrain": {
+        "Expo": { "Mon - Fri": "0605", "Sat": "0605", "Sun / PH": "0625" }
+      },
+      "lastTrain": {
+        "Expo": { "Mon - Fri": "0024", "Sat": "0024", "Sun / PH": "0024" }
+      }
+    }
+  ],
+  "Upper Changi": [
+    {
+      "direction": "Bukit Panjang",
+      "firstTrain": {
+        "Bukit Panjang": {
+          "Mon - Fri": "0538",
+          "Sat": "0538",
+          "Sun / PH": "0556"
+        }
+      },
+      "lastTrain": {
+        "Bukit Panjang": {
+          "Mon - Fri": "2341",
+          "Sat": "2341",
+          "Sun / PH": "2341"
+        }
+      }
+    },
+    {
+      "direction": "Expo",
+      "firstTrain": {
+        "Expo": { "Mon - Fri": "0621", "Sat": "0621", "Sun / PH": "0641" }
+      },
+      "lastTrain": {
+        "Expo": { "Mon - Fri": "0040", "Sat": "0040", "Sun / PH": "0040" }
+      }
+    }
+  ],
+  "Upper Thomson": [
+    {
+      "direction": "Woodlands North",
+      "firstTrain": {
+        "Woodlands North": {
+          "Mon - Fri": "0556",
+          "Sat": "0556",
+          "Sun / PH": "0556"
+        }
+      },
+      "lastTrain": {
+        "Woodlands North": {
+          "Mon - Fri": "2338",
+          "Sat": "2338",
+          "Sun / PH": "2338"
+        }
+      }
+    },
+    {
+      "direction": "Springleaf",
+      "firstTrain": {},
+      "lastTrain": {
+        "Springleaf": { "Mon - Fri": "2346", "Sat": "2346", "Sun / PH": "2346" }
+      }
+    },
+    {
+      "direction": "Caldecott",
+      "firstTrain": {
+        "Caldecott": { "Mon - Fri": "0556", "Sat": "0556", "Sun / PH": "0556" }
+      },
+      "lastTrain": {
+        "Caldecott": { "Mon - Fri": "2347", "Sat": "2347", "Sun / PH": "2347" }
+      }
+    }
+  ],
+  "Woodlands": [
+    {
+      "direction": "Jurong East",
+      "firstTrain": {
+        "Jurong East": {
+          "Mon - Fri": "0538",
+          "Sat": "0537",
+          "Sun / PH": "0601"
+        }
+      },
+      "lastTrain": {
+        "Jurong East": {
+          "Mon - Fri": "0036",
+          "Sat": "0036",
+          "Sun / PH": "0036"
+        },
+        "Kranji": { "Mon - Fri": "0052", "Sat": "0052", "Sun / PH": "0052" }
+      }
+    },
+    {
+      "direction": "Marina South Pier",
+      "firstTrain": {
+        "Marina South Pier": {
+          "Mon - Fri": "0527",
+          "Sat": "0527",
+          "Sun / PH": "0545"
+        }
+      },
+      "lastTrain": {
+        "Marina South Pier": {
+          "Mon - Fri": "2312",
+          "Sat": "2312",
+          "Sun / PH": "2312"
+        },
+        "Marina Bay": {
+          "Mon - Fri": "2315",
+          "Sat": "2315",
+          "Sun / PH": "2315"
+        },
+        "Toa Payoh": { "Mon - Fri": "2350", "Sat": "2350", "Sun / PH": "2350" },
+        "Ang Mo Kio": { "Mon - Fri": "0039", "Sat": "0039", "Sun / PH": "0039" }
+      }
+    },
+    {
+      "direction": "Woodlands North",
+      "firstTrain": {
+        "Woodlands North": {
+          "Mon - Fri": "0543",
+          "Sat": "0543",
+          "Sun / PH": "0543"
+        }
+      },
+      "lastTrain": {
+        "Woodlands North": {
+          "Mon - Fri": "2355",
+          "Sat": "2355",
+          "Sun / PH": "2355"
+        }
+      }
+    },
+    {
+      "direction": "Caldecott",
+      "firstTrain": {
+        "Caldecott": { "Mon - Fri": "0551", "Sat": "0551", "Sun / PH": "0551" }
+      },
+      "lastTrain": {
+        "Caldecott": { "Mon - Fri": "2330", "Sat": "2330", "Sun / PH": "2330" }
+      }
+    }
+  ],
+  "Woodlands North": [
+    {
+      "direction": "Caldecott",
+      "firstTrain": {
+        "Caldecott": { "Mon - Fri": "0548", "Sat": "0548", "Sun / PH": "0548" }
+      },
+      "lastTrain": {
+        "Caldecott": { "Mon - Fri": "2327", "Sat": "2327", "Sun / PH": "2327" }
+      }
+    }
+  ],
+  "Woodlands South": [
+    {
+      "direction": "Woodlands North",
+      "firstTrain": {
+        "Woodlands North": {
+          "Mon - Fri": "0540",
+          "Sat": "0540",
+          "Sun / PH": "0540"
+        }
+      },
+      "lastTrain": {
+        "Woodlands North": {
+          "Mon - Fri": "2352",
+          "Sat": "2352",
+          "Sun / PH": "2352"
+        }
+      }
+    },
+    {
+      "direction": "Caldecott",
+      "firstTrain": {
+        "Caldecott": { "Mon - Fri": "0554", "Sat": "0554", "Sun / PH": "0554" }
+      },
+      "lastTrain": {
+        "Caldecott": { "Mon - Fri": "2333", "Sat": "2333", "Sun / PH": "2333" }
+      }
+    }
+  ],
+  "Woodleigh": [
+    {
+      "direction": "HarbourFront",
+      "firstTrain": {
+        "HarbourFront": {
+          "Mon - Fri": "0555",
+          "Sat": "0556",
+          "Sun / PH": "0616"
+        }
+      },
+      "lastTrain": {
+        "HarbourFront": {
+          "Mon - Fri": "2341",
+          "Sat": "2341",
+          "Sun / PH": "2341"
+        }
+      }
+    },
+    {
+      "direction": "Punggol",
+      "firstTrain": {
+        "Punggol": { "Mon - Fri": "0604", "Sat": "0619", "Sun / PH": "0639" }
+      },
+      "lastTrain": {
+        "Punggol": { "Mon - Fri": "0014", "Sat": "0014", "Sun / PH": "0014" }
+      }
+    }
+  ],
+  "Yew Tee": [
+    {
+      "direction": "Jurong East",
+      "firstTrain": {
+        "Jurong East": {
+          "Mon - Fri": "0537",
+          "Sat": "0537",
+          "Sun / PH": "0600"
+        }
+      },
+      "lastTrain": {
+        "Jurong East": {
+          "Mon - Fri": "0046",
+          "Sat": "0046",
+          "Sun / PH": "0046"
+        }
+      }
+    },
+    {
+      "direction": "Marina South Pier",
+      "firstTrain": {
+        "Marina South Pier": {
+          "Mon - Fri": "0527",
+          "Sat": "0527",
+          "Sun / PH": "0546"
+        }
+      },
+      "lastTrain": {
+        "Marina South Pier": {
+          "Mon - Fri": "2258",
+          "Sat": "2258",
+          "Sun / PH": "2258"
+        },
+        "Marina Bay": {
+          "Mon - Fri": "2304",
+          "Sat": "2304",
+          "Sun / PH": "2304"
+        },
+        "Toa Payoh": { "Mon - Fri": "2340", "Sat": "2340", "Sun / PH": "2340" },
+        "Ang Mo Kio": { "Mon - Fri": "0029", "Sat": "0029", "Sun / PH": "0029" }
+      }
+    }
+  ],
+  "Yio Chu Kang": [
+    {
+      "direction": "Jurong East",
+      "firstTrain": {
+        "Yishun": { "Mon - Fri": "0510", "Sat": "0510" },
+        "Jurong East": {
+          "Mon - Fri": "0520",
+          "Sat": "0519",
+          "Sun / PH": "0543"
+        }
+      },
+      "lastTrain": {
+        "Jurong East": {
+          "Mon - Fri": "0017",
+          "Sat": "0017",
+          "Sun / PH": "0017"
+        },
+        "Kranji": { "Mon - Fri": "0034", "Sat": "0034", "Sun / PH": "0034" }
+      }
+    },
+    {
+      "direction": "Marina South Pier",
+      "firstTrain": {
+        "Marina South Pier": {
+          "Mon - Fri": "0531",
+          "Sat": "0531",
+          "Sun / PH": "0604"
+        }
+      },
+      "lastTrain": {
+        "Marina South Pier": {
+          "Mon - Fri": "2331",
+          "Sat": "2331",
+          "Sun / PH": "2331"
+        },
+        "Marina Bay": {
+          "Mon - Fri": "2333",
+          "Sat": "2333",
+          "Sun / PH": "2333"
+        },
+        "Toa Payoh": { "Mon - Fri": "0009", "Sat": "0009", "Sun / PH": "0009" },
+        "Ang Mo Kio": { "Mon - Fri": "0058", "Sat": "0058", "Sun / PH": "0058" }
+      }
+    }
+  ],
+  "Yishun": [
+    {
+      "direction": "Jurong East",
+      "firstTrain": {
+        "Jurong East": {
+          "Mon - Fri": "0527",
+          "Sat": "0526",
+          "Sun / PH": "0550"
+        }
+      },
+      "lastTrain": {
+        "Jurong East": {
+          "Mon - Fri": "0025",
+          "Sat": "0025",
+          "Sun / PH": "0025"
+        },
+        "Kranji": { "Mon - Fri": "0042", "Sat": "0042", "Sun / PH": "0042" }
+      }
+    },
+    {
+      "direction": "Marina South Pier",
+      "firstTrain": {
+        "Marina South Pier": {
+          "Mon - Fri": "0524",
+          "Sat": "0524",
+          "Sun / PH": "0557"
+        }
+      },
+      "lastTrain": {
+        "Marina South Pier": {
+          "Mon - Fri": "2323",
+          "Sat": "2323",
+          "Sun / PH": "2323"
+        },
+        "Marina Bay": {
+          "Mon - Fri": "2325",
+          "Sat": "2325",
+          "Sun / PH": "2325"
+        },
+        "Toa Payoh": { "Mon - Fri": "0001", "Sat": "0001", "Sun / PH": "0001" },
+        "Ang Mo Kio": { "Mon - Fri": "0050", "Sat": "0050", "Sun / PH": "0050" }
+      }
+    }
+  ]
+}

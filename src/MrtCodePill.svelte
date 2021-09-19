@@ -4,12 +4,18 @@
   export let station;
 
   let codes = getStationCodesByName(station);
-  console.log(codes);
+
+  function getLine(code) {
+    let line = code.substring(0, 2);
+    if (line === "CE") line = "CC"; // special case: circle line extension
+    if (line === "CG") line = "EW"; // special case: EWL changi extension
+    return line + "L";
+  }
 </script>
 
 <span class="mrt-code-wrapper">
   {#each codes as code}
-    <span class={"mrt-code " + code.substring(0, 2)}>{code}</span>
+    <span class={"mrt-code " + getLine(code)}>{code}</span>
   {/each}
 </span>
 
@@ -23,23 +29,23 @@
     padding: 2px 6px;
     font-size: 0.8rem;
   }
-  span.mrt-code.NS {
+  span.mrt-code.NSL {
     background: #f30000;
   }
-  span.mrt-code.EW {
+  span.mrt-code.EWL {
     background: #009c32;
   }
-  span.mrt-code.NE {
+  span.mrt-code.NEL {
     background: #aa00b7;
   }
-  span.mrt-code.CC {
+  span.mrt-code.CCL {
     background: #ff9c00;
     color: black;
   }
-  span.mrt-code.DT {
+  span.mrt-code.DTL {
     background: #0049bf;
   }
-  span.mrt-code.TE {
+  span.mrt-code.TEL {
     background: #a65700;
   }
   span.mrt-code:first-of-type {

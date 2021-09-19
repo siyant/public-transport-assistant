@@ -15,17 +15,24 @@ body {
     Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
 }
 
+h1,
 h2,
-h3 {
+h3,
+h4 {
   margin-top: 0;
-  margin-bottom: 0.8em;
 }
 
 h2 {
   font-weight: lighter;
+  margin-bottom: 0.8em;
 }
 h3 {
   font-weight: normal;
+  margin-bottom: 0.5em;
+}
+h4 {
+  font-weight: lighter;
+  margin-bottom: 0.3em;
 }
 
 .fade {
@@ -95,8 +102,9 @@ div.card {
   min-width: 300px;
   box-sizing: border-box;
   display: inline-block;
+  vertical-align: top;
   background: white;
-  padding: 10px;
+  padding: 15px;
   margin-bottom: 10px;
   border-radius: 5px;
 }
@@ -119,4 +127,8 @@ div.content-centered {
 /* utility styles */
 .vertical-center {
   vertical-align: middle;
+}
+
+.center {
+  text-align: center;
 }
