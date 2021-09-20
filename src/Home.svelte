@@ -7,9 +7,22 @@
   const busStopNames = ["Ang Mo Kio Pr Sch", "Opp Ang Mo Kio Pr Sch"];
 
   let refresh = 0;
+  let lastRefresh = new Date().getTime();
+
+  // Checks every 3s if it has been 15s since the last update (either forced update by pressing the refresh button or
+  // through the auto-refresh)
+  setInterval(refreshTimer, 3*1000);
+
+  async function refreshTimer() {
+    if (new Date().getTime() - lastRefresh > 15*1000) {
+      refresh++;
+      lastRefresh = new Date().getTime();
+    }
+  }
 
   function onRefresh() {
     refresh++;
+    lastRefresh = new Date().getTime();
   }
 </script>
 
