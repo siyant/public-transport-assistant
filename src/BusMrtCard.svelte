@@ -4,6 +4,8 @@
   import { getFirstLastTrainByStationName } from "./data/mrtStations.js";
   import * as api from "./data/api.js";
 
+  import BusIcon from "./assets/img/busIcon.svelte";
+
   export let type; // "bus", "mrt"
   export let name;
   export let busStopId = null; // only required if type is "bus"
@@ -37,8 +39,9 @@
 
 <div class="card">
   <h3>
-    {#if type === "mrt"}<MrtCodePill station={name} />{/if}<span
-      class="vertical-center">{name}</span
+    {#if type === "mrt"}<MrtCodePill station={name} />{:else}
+      <div class="bus-icon"><BusIcon /></div>{/if}<span class="vertical-center"
+      >{name}</span
     >
   </h3>
 
@@ -181,5 +184,12 @@
   }
   .mini-tab:hover {
     background: rgba(233, 234, 225, 0.5);
+  }
+  .bus-icon {
+    display: inline-block;
+    width: 16px;
+    vertical-align: middle;
+    margin-right: 6px;
+    color: #30b6d1;
   }
 </style>
