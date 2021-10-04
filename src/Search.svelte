@@ -1,11 +1,12 @@
-<script>
+<script lang="ts">
   import BusMrtCard from "./BusMrtCard.svelte";
   import BusMrtSelector from "./BusMrtSelector.svelte";
+  import type { TransportNode } from "./interfaces";
 
-  let selected = null;
+  let selected: TransportNode = null;
 
-  function onSelect(stationName) {
-    selected = { type: "mrt", name: stationName };
+  function onSelect(node: TransportNode) {
+    selected = node;
   }
 </script>
 
@@ -14,7 +15,7 @@
   <div><BusMrtSelector handleChange={onSelect} /></div>
   {#if selected != null}
     {#key selected}
-      <BusMrtCard {...selected} />
+      <BusMrtCard node={selected} />
     {/key}
   {/if}
 </div>
