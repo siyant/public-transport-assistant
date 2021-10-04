@@ -1,6 +1,6 @@
 <script lang="ts">
-  import { getMrtStationByName, getMrtStations } from "./data/mrtStations.js";
-  import type { TransportNode } from "./interfaces.js";
+  import { getMrtStationByName, getMrtStations } from "data/mrtStations.js";
+  import type { TransportNode } from "interfaces.js";
 
   export let handleChange: (node: TransportNode) => void;
 

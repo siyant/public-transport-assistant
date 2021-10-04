@@ -1,6 +1,7 @@
 <script lang="ts">
-  import BusMrtCard from "./BusMrtCard.svelte";
-  import type { BusStop, MrtStation } from "./interfaces";
+  import type { BusStop, MrtStation } from "interfaces";
+
+  import BusMrtCard from "components/BusMrtCard.svelte";
 
   const mrtStations: MrtStation[] = [
     { type: "mrt", name: "Mayflower", codes: ["TE6"] },

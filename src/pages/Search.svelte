@@ -1,7 +1,8 @@
 <script lang="ts">
-  import BusMrtCard from "./BusMrtCard.svelte";
-  import BusMrtSelector from "./BusMrtSelector.svelte";
-  import type { TransportNode } from "./interfaces";
+  import type { TransportNode } from "interfaces";
+
+  import BusMrtCard from "components/BusMrtCard.svelte";
+  import BusMrtSelector from "components/BusMrtSelector.svelte";
 
   let selected: TransportNode = null;
 

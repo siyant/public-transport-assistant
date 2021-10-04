@@ -1,11 +1,11 @@
 <script lang="ts">
   import { onMount } from "svelte";
-  import MrtCodePill from "./MrtCodePill.svelte";
-  import { getFirstLastTrainByStationName } from "./data/mrtStations.js";
-  import * as api from "./data/api.js";
-  import type { TransportNode } from "./interfaces";
+  import { getFirstLastTrainByStationName } from "data/mrtStations.js";
+  import * as api from "data/api.js";
+  import type { TransportNode } from "interfaces";
 
-  import BusIcon from "./assets/img/busIcon.svelte";
+  import MrtCodePill from "components/MrtCodePill.svelte";
+  import BusIcon from "assets/img/busIcon.svelte";
 
   export let node: TransportNode;
   export let refresh = null;
