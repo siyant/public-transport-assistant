@@ -1,11 +1,11 @@
-<script>
-  import { getStationCodesByName } from "./data/mrtStations";
+<script lang="ts">
+  import { getStationCodesByName } from "./data/mrtStations.js";
 
-  export let station;
+  export let station: string;
 
   let codes = getStationCodesByName(station);
 
-  function getLine(code) {
+  function getLine(code: string) {
     let line = code.substring(0, 2);
     if (line === "CE") line = "CC"; // special case: circle line extension
     if (line === "CG") line = "EW"; // special case: EWL changi extension

@@ -1,20 +1,26 @@
-<script>
+<script lang="ts">
   import BusMrtCard from "./BusMrtCard.svelte";
+  import type { BusStop, MrtStation } from "./interfaces";
 
-  const trainStations = ["Mayflower", "Ang Mo Kio"];
+  const mrtStations: MrtStation[] = [
+    { type: "mrt", name: "Mayflower", codes: ["TE6"] },
+    { type: "mrt", name: "Ang Mo Kio", codes: ["NS16"] },
+  ];
 
-  const busStops = [54229, 54221];
-  const busStopNames = ["Ang Mo Kio Pr Sch", "Opp Ang Mo Kio Pr Sch"];
+  const busStops: BusStop[] = [
+    { type: "bus", id: 54229, name: "Ang Mo Kio Pr Sch" },
+    { type: "bus", id: 54221, name: "Opp Ang Mo Kio Pr Sch" },
+  ];
 
   let refresh = 0;
   let lastRefresh = new Date().getTime();
 
   // Checks every 3s if it has been 15s since the last update (either forced update by pressing the refresh button or
   // through the auto-refresh)
-  setInterval(refreshTimer, 3*1000);
+  setInterval(refreshTimer, 3 * 1000);
 
   async function refreshTimer() {
-    if (new Date().getTime() - lastRefresh > 15*1000) {
+    if (new Date().getTime() - lastRefresh > 15 * 1000) {
       refresh++;
       lastRefresh = new Date().getTime();
     }
@@ -30,15 +36,15 @@
 
 <div class="content-centered">
   <h2>Train arrival</h2>
-  {#each trainStations as station}
-    <BusMrtCard type="mrt" name={station} {refresh} />
+  {#each mrtStations as station}
+    <BusMrtCard node={station} {refresh} />
   {/each}
 
   <div style="height: 20px" />
 
   <h2>Bus arrival</h2>
-  {#each busStops as busStopId, i}
-    <BusMrtCard type="bus" name={busStopNames[i]} {busStopId} {refresh} />
+  {#each busStops as busStop}
+    <BusMrtCard node={busStop} {refresh} />
   {/each}
 </div>
 

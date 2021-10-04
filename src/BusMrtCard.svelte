@@ -1,19 +1,18 @@
-<script>
+<script lang="ts">
   import { onMount } from "svelte";
   import MrtCodePill from "./MrtCodePill.svelte";
   import { getFirstLastTrainByStationName } from "./data/mrtStations.js";
   import * as api from "./data/api.js";
+  import type { TransportNode } from "./interfaces";
 
   import BusIcon from "./assets/img/busIcon.svelte";
 
-  export let type; // "bus", "mrt"
-  export let name;
-  export let busStopId = null; // only required if type is "bus"
+  export let node: TransportNode;
   export let refresh = null;
 
   let timings;
-  let expand;
-  let firstLastTrain = getFirstLastTrainByStationName(name);
+  let expand: null | "firstTrain" | "lastTrain";
+  let firstLastTrain = getFirstLastTrainByStationName(node.name);
 
   onMount(fetchData);
 
@@ -23,9 +22,10 @@
 
   async function fetchData() {
     timings = null;
-    if (type === "mrt") timings = await api.fetchMrtArrivalTimes(name);
-    else if (type === "bus")
-      timings = await api.fetchBusArrivalTimes(busStopId);
+    if (node.type === "mrt")
+      timings = await api.fetchMrtArrivalTimes(node.name);
+    else if (node.type === "bus")
+      timings = await api.fetchBusArrivalTimes(node.id);
   }
 
   function renderBusTiming(durationMs) {
@@ -39,19 +39,19 @@
 
 <div class="card">
   <h3>
-    {#if type === "mrt"}<MrtCodePill station={name} />{:else}
+    {#if node.type === "mrt"}<MrtCodePill station={node.name} />{:else}
       <div class="bus-icon"><BusIcon /></div>{/if}<span class="vertical-center"
-      >{name}</span
+      >{node.name}</span
     >
   </h3>
 
   <table>
     <thead>
       <tr>
-        {#if type === "mrt"}
+        {#if node.type === "mrt"}
           <th>Destination</th>
           <th colspan="2">Timings (min)</th>
-        {:else if type === "bus"}
+        {:else if node.type === "bus"}
           <th>Bus</th>
           <th colspan="3">Timings (min)</th>
         {/if}
@@ -59,7 +59,7 @@
     </thead>
 
     <tbody>
-      {#if type === "mrt"}
+      {#if node.type === "mrt"}
         {#each timings ?? [] as t}
           <tr>
             <td>{t.next_train_destination}</td>
@@ -71,7 +71,7 @@
             </td>
           </tr>
         {/each}
-      {:else if type === "bus"}
+      {:else if node.type === "bus"}
         {#each timings ?? [] as bus}
           <tr>
             <td>{bus.no}</td>
@@ -90,7 +90,7 @@
     </tbody>
   </table>
 
-  {#if type === "mrt"}
+  {#if node.type === "mrt"}
     <span
       class={`mini-tab ${expand == "firstTrain" ? "active" : ""}`}
       on:click={() => {
