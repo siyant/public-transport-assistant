@@ -1,9 +1,5 @@
 <script lang="ts">
-  import { getStationCodesByName } from "./data/mrtStations.js";
-
-  export let station: string;
-
-  let codes = getStationCodesByName(station);
+  export let codes: string[];
 
   function getLine(code: string) {
     let line = code.substring(0, 2);

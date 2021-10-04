@@ -39,7 +39,7 @@
 
 <div class="card">
   <h3>
-    {#if node.type === "mrt"}<MrtCodePill station={node.name} />{:else}
+    {#if node.type === "mrt"}<MrtCodePill codes={node.codes} />{:else}
       <div class="bus-icon"><BusIcon /></div>{/if}<span class="vertical-center"
       >{node.name}</span
     >
