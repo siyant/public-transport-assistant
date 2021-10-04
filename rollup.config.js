@@ -1,7 +1,9 @@
 import svelte from "rollup-plugin-svelte";
+import sveltePreprocess from "svelte-preprocess";
 import commonjs from "@rollup/plugin-commonjs";
 import resolve from "@rollup/plugin-node-resolve";
 import json from "@rollup/plugin-json";
+import typescript from "@rollup/plugin-typescript";
 import livereload from "rollup-plugin-livereload";
 import { terser } from "rollup-plugin-terser";
 import css from "rollup-plugin-css-only";
@@ -34,7 +36,7 @@ function serve() {
 }
 
 export default {
-  input: "src/main.js",
+  input: "src/main.ts",
   output: {
     sourcemap: true,
     format: "iife",
