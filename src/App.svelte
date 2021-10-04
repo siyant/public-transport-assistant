@@ -1,4 +1,4 @@
-<script>
+<script lang="ts">
   import router from "page";
   import Home from "./Home.svelte";
   import Search from "./Search.svelte";
